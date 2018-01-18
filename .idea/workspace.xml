@@ -2,72 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aaca879-b591-4c81-9bcc-7c85659ca605" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_0_33.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_1_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/MenuServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/MenuService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/menu/toselmenu.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.old.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.old.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/screenshot/standard_day.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/screenshot/standard_day_meridian.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/screenshot/standard_decade.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/screenshot/standard_full.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/screenshot/standard_hour.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/screenshot/standard_hour_meridian.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/screenshot/standard_month.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/screenshot/standard_year.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-dialog/dist/css/bootstrap-dialog.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-dialog/dist/css/bootstrap-dialog.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-dialog/dist/js/bootstrap-dialog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-dialog/dist/js/bootstrap-dialog.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/css/fileinput.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/css/fileinput.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/img/loading-sm.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/img/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/fileinput.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/fileinput.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/locales/zh-TW.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/locales/zh.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/canvas-to-blob.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/canvas-to-blob.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/purify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/purify.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/sortable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/sortable.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/themes/explorer/theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/themes/explorer/theme.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/themes/fa/theme.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/themes/gly/theme.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table-locale-all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table-locale-all.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/locale/bootstrap-table-zh-CN.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/artifacts/afterx_war_exploded.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/artifacts/afterx_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/afterx.iml" afterPath="$PROJECT_DIR$/../afterx/afterx.iml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/pom.xml" afterPath="$PROJECT_DIR$/../afterx/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Menu.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Menu.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/MenuMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/MenuMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,12 +28,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MenuMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MenuMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/MenuMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TreeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,8 +149,8 @@
         <option value="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/menu/aa.jsp" />
         <option value="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/menu/toselmenu.jsp" />
         <option value="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.js" />
-        <option value="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java" />
       </list>
     </option>
   </component>
@@ -287,6 +249,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="afterx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jk" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
@@ -483,12 +454,20 @@
       <workItem from="1516235366168" duration="10440000" />
       <workItem from="1516253849716" duration="7827000" />
       <workItem from="1516263516968" duration="374000" />
-      <workItem from="1516263947347" duration="10347000" />
+      <workItem from="1516263947347" duration="11093000" />
     </task>
+    <task id="LOCAL-00001" summary="VC">
+      <created>1516278006340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516278006340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48276000" />
+    <option name="totallyTimeSpent" value="49022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -557,6 +536,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="VC" />
+    <option name="LAST_COMMIT_MESSAGE" value="VC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -819,33 +802,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/menu/toselmenu.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TreeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -891,6 +852,28 @@
         <state relative-caret-position="154">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TreeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

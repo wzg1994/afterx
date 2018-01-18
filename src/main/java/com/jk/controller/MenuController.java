@@ -14,9 +14,10 @@ public class MenuController {
 
     @Autowired
     private MenuService menuService;
-
+    int a=1;
     @RequestMapping(value = "/toselmenu")
     public String toselmenu(){
         return "/menu/toselmenu";
     }
 }
+/*过恢复*/
