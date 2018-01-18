@@ -42,11 +42,11 @@
         <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -454,7 +454,7 @@
       <workItem from="1516235366168" duration="10440000" />
       <workItem from="1516253849716" duration="7827000" />
       <workItem from="1516263516968" duration="374000" />
-      <workItem from="1516263947347" duration="11352000" />
+      <workItem from="1516263947347" duration="11419000" />
     </task>
     <task id="LOCAL-00001" summary="VC">
       <created>1516278006340</created>
@@ -477,11 +477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516278732468</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="三">
+      <created>1516278889398</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516278889398</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49281000" />
+    <option name="totallyTimeSpent" value="49348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -553,7 +560,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="VC" />
-    <option name="LAST_COMMIT_MESSAGE" value="VC" />
+    <MESSAGE value="三" />
+    <option name="LAST_COMMIT_MESSAGE" value="三" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -882,11 +890,11 @@
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
           </folding>
         </state>
       </provider>

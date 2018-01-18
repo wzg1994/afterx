@@ -14,7 +14,7 @@ public class MenuController {
 
     @Autowired
     private MenuService menuService;
-    int a=2;
+
     @RequestMapping(value = "/toselmenu")
     public String toselmenu(){
         return "/menu/toselmenu";
