@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.JobinfoMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Jobinfo" >
+    <id column="jobid" property="jobid" jdbcType="INTEGER" />
+    <result column="jobname" property="jobname" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    jobid, jobname
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from jobinfo
+    where jobid = #{jobid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from jobinfo
+    where jobid = #{jobid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Jobinfo" >
+    insert into jobinfo (jobid, jobname)
+    values (#{jobid,jdbcType=INTEGER}, #{jobname,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Jobinfo" >
+    insert into jobinfo
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="jobid != null" >
+        jobid,
+      </if>
+      <if test="jobname != null" >
+        jobname,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="jobid != null" >
+        #{jobid,jdbcType=INTEGER},
+      </if>
+      <if test="jobname != null" >
+        #{jobname,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Jobinfo" >
+    update jobinfo
+    <set >
+      <if test="jobname != null" >
+        jobname = #{jobname,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where jobid = #{jobid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Jobinfo" >
+    update jobinfo
+    set jobname = #{jobname,jdbcType=VARCHAR}
+    where jobid = #{jobid,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -17,6 +17,7 @@ public class MenuController {
 
     @RequestMapping(value = "/toselmenu")
     public String toselmenu(){
+
         return "/menu/toselmenu";
     }
 }

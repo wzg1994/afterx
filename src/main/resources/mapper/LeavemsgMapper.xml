@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.LeavemsgMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Leavemsg" >
+    <id column="leavemsgid" property="leavemsgid" jdbcType="INTEGER" />
+    <result column="userid" property="userid" jdbcType="INTEGER" />
+    <result column="msgcontent" property="msgcontent" jdbcType="VARCHAR" />
+    <result column="beiuserid" property="beiuserid" jdbcType="INTEGER" />
+    <result column="type" property="type" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    leavemsgid, userid, msgcontent, beiuserid, type
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from leavemsg
+    where leavemsgid = #{leavemsgid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from leavemsg
+    where leavemsgid = #{leavemsgid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Leavemsg" >
+    insert into leavemsg (leavemsgid, userid, msgcontent, 
+      beiuserid, type)
+    values (#{leavemsgid,jdbcType=INTEGER}, #{userid,jdbcType=INTEGER}, #{msgcontent,jdbcType=VARCHAR}, 
+      #{beiuserid,jdbcType=INTEGER}, #{type,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Leavemsg" >
+    insert into leavemsg
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="leavemsgid != null" >
+        leavemsgid,
+      </if>
+      <if test="userid != null" >
+        userid,
+      </if>
+      <if test="msgcontent != null" >
+        msgcontent,
+      </if>
+      <if test="beiuserid != null" >
+        beiuserid,
+      </if>
+      <if test="type != null" >
+        type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="leavemsgid != null" >
+        #{leavemsgid,jdbcType=INTEGER},
+      </if>
+      <if test="userid != null" >
+        #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="msgcontent != null" >
+        #{msgcontent,jdbcType=VARCHAR},
+      </if>
+      <if test="beiuserid != null" >
+        #{beiuserid,jdbcType=INTEGER},
+      </if>
+      <if test="type != null" >
+        #{type,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Leavemsg" >
+    update leavemsg
+    <set >
+      <if test="userid != null" >
+        userid = #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="msgcontent != null" >
+        msgcontent = #{msgcontent,jdbcType=VARCHAR},
+      </if>
+      <if test="beiuserid != null" >
+        beiuserid = #{beiuserid,jdbcType=INTEGER},
+      </if>
+      <if test="type != null" >
+        type = #{type,jdbcType=INTEGER},
+      </if>
+    </set>
+    where leavemsgid = #{leavemsgid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Leavemsg" >
+    update leavemsg
+    set userid = #{userid,jdbcType=INTEGER},
+      msgcontent = #{msgcontent,jdbcType=VARCHAR},
+      beiuserid = #{beiuserid,jdbcType=INTEGER},
+      type = #{type,jdbcType=INTEGER}
+    where leavemsgid = #{leavemsgid,jdbcType=INTEGER}
+  </update>
+</mapper>

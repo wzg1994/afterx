@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.MoneyinfoMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Moneyinfo" >
+    <id column="moneyid" property="moneyid" jdbcType="INTEGER" />
+    <result column="userid" property="userid" jdbcType="INTEGER" />
+    <result column="time" property="time" jdbcType="DATE" />
+    <result column="monycount" property="monycount" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="reply" property="reply" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    moneyid, userid, time, monycount, status, reply
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from moneyinfo
+    where moneyid = #{moneyid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from moneyinfo
+    where moneyid = #{moneyid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Moneyinfo" >
+    insert into moneyinfo (moneyid, userid, time, 
+      monycount, status, reply
+      )
+    values (#{moneyid,jdbcType=INTEGER}, #{userid,jdbcType=INTEGER}, #{time,jdbcType=DATE}, 
+      #{monycount,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, #{reply,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Moneyinfo" >
+    insert into moneyinfo
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="moneyid != null" >
+        moneyid,
+      </if>
+      <if test="userid != null" >
+        userid,
+      </if>
+      <if test="time != null" >
+        time,
+      </if>
+      <if test="monycount != null" >
+        monycount,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="reply != null" >
+        reply,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="moneyid != null" >
+        #{moneyid,jdbcType=INTEGER},
+      </if>
+      <if test="userid != null" >
+        #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="time != null" >
+        #{time,jdbcType=DATE},
+      </if>
+      <if test="monycount != null" >
+        #{monycount,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="reply != null" >
+        #{reply,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Moneyinfo" >
+    update moneyinfo
+    <set >
+      <if test="userid != null" >
+        userid = #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="time != null" >
+        time = #{time,jdbcType=DATE},
+      </if>
+      <if test="monycount != null" >
+        monycount = #{monycount,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="reply != null" >
+        reply = #{reply,jdbcType=INTEGER},
+      </if>
+    </set>
+    where moneyid = #{moneyid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Moneyinfo" >
+    update moneyinfo
+    set userid = #{userid,jdbcType=INTEGER},
+      time = #{time,jdbcType=DATE},
+      monycount = #{monycount,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER},
+      reply = #{reply,jdbcType=INTEGER}
+    where moneyid = #{moneyid,jdbcType=INTEGER}
+  </update>
+</mapper>

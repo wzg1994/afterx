@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.VoicefontMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Voicefont" >
+    <id column="wenziid" property="wenziid" jdbcType="INTEGER" />
+    <result column="wenzi" property="wenzi" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    wenziid, wenzi
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from voicefont
+    where wenziid = #{wenziid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from voicefont
+    where wenziid = #{wenziid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Voicefont" >
+    insert into voicefont (wenziid, wenzi)
+    values (#{wenziid,jdbcType=INTEGER}, #{wenzi,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Voicefont" >
+    insert into voicefont
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="wenziid != null" >
+        wenziid,
+      </if>
+      <if test="wenzi != null" >
+        wenzi,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="wenziid != null" >
+        #{wenziid,jdbcType=INTEGER},
+      </if>
+      <if test="wenzi != null" >
+        #{wenzi,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Voicefont" >
+    update voicefont
+    <set >
+      <if test="wenzi != null" >
+        wenzi = #{wenzi,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where wenziid = #{wenziid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Voicefont" >
+    update voicefont
+    set wenzi = #{wenzi,jdbcType=VARCHAR}
+    where wenziid = #{wenziid,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.ZhuboMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Zhubo" >
+    <id column="zhuboid" property="zhuboid" jdbcType="INTEGER" />
+    <result column="zhuboname" property="zhuboname" jdbcType="VARCHAR" />
+    <result column="idcard" property="idcard" jdbcType="VARCHAR" />
+    <result column="loginname" property="loginname" jdbcType="VARCHAR" />
+    <result column="loginpass" property="loginpass" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    zhuboid, zhuboname, idcard, loginname, loginpass
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from zhubo
+    where zhuboid = #{zhuboid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from zhubo
+    where zhuboid = #{zhuboid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Zhubo" >
+    insert into zhubo (zhuboid, zhuboname, idcard, 
+      loginname, loginpass)
+    values (#{zhuboid,jdbcType=INTEGER}, #{zhuboname,jdbcType=VARCHAR}, #{idcard,jdbcType=VARCHAR}, 
+      #{loginname,jdbcType=VARCHAR}, #{loginpass,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Zhubo" >
+    insert into zhubo
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="zhuboid != null" >
+        zhuboid,
+      </if>
+      <if test="zhuboname != null" >
+        zhuboname,
+      </if>
+      <if test="idcard != null" >
+        idcard,
+      </if>
+      <if test="loginname != null" >
+        loginname,
+      </if>
+      <if test="loginpass != null" >
+        loginpass,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="zhuboid != null" >
+        #{zhuboid,jdbcType=INTEGER},
+      </if>
+      <if test="zhuboname != null" >
+        #{zhuboname,jdbcType=VARCHAR},
+      </if>
+      <if test="idcard != null" >
+        #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="loginname != null" >
+        #{loginname,jdbcType=VARCHAR},
+      </if>
+      <if test="loginpass != null" >
+        #{loginpass,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Zhubo" >
+    update zhubo
+    <set >
+      <if test="zhuboname != null" >
+        zhuboname = #{zhuboname,jdbcType=VARCHAR},
+      </if>
+      <if test="idcard != null" >
+        idcard = #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="loginname != null" >
+        loginname = #{loginname,jdbcType=VARCHAR},
+      </if>
+      <if test="loginpass != null" >
+        loginpass = #{loginpass,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where zhuboid = #{zhuboid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Zhubo" >
+    update zhubo
+    set zhuboname = #{zhuboname,jdbcType=VARCHAR},
+      idcard = #{idcard,jdbcType=VARCHAR},
+      loginname = #{loginname,jdbcType=VARCHAR},
+      loginpass = #{loginpass,jdbcType=VARCHAR}
+    where zhuboid = #{zhuboid,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.EmployeeMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Employee" >
+    <id column="employeeid" property="employeeid" jdbcType="INTEGER" />
+    <result column="employeename" property="employeename" jdbcType="VARCHAR" />
+    <result column="employeepass" property="employeepass" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    employeeid, employeename, employeepass
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from employee
+    where employeeid = #{employeeid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from employee
+    where employeeid = #{employeeid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Employee" >
+    insert into employee (employeeid, employeename, employeepass
+      )
+    values (#{employeeid,jdbcType=INTEGER}, #{employeename,jdbcType=VARCHAR}, #{employeepass,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Employee" >
+    insert into employee
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="employeeid != null" >
+        employeeid,
+      </if>
+      <if test="employeename != null" >
+        employeename,
+      </if>
+      <if test="employeepass != null" >
+        employeepass,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="employeeid != null" >
+        #{employeeid,jdbcType=INTEGER},
+      </if>
+      <if test="employeename != null" >
+        #{employeename,jdbcType=VARCHAR},
+      </if>
+      <if test="employeepass != null" >
+        #{employeepass,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Employee" >
+    update employee
+    <set >
+      <if test="employeename != null" >
+        employeename = #{employeename,jdbcType=VARCHAR},
+      </if>
+      <if test="employeepass != null" >
+        employeepass = #{employeepass,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where employeeid = #{employeeid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Employee" >
+    update employee
+    set employeename = #{employeename,jdbcType=VARCHAR},
+      employeepass = #{employeepass,jdbcType=VARCHAR}
+    where employeeid = #{employeeid,jdbcType=INTEGER}
+  </update>
+</mapper>
