@@ -1,5 +1,6 @@
 package com.jk.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.jk.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -20,5 +21,13 @@ public class MenuController {
 
         return "/menu/toselmenu";
     }
+
+    @RequestMapping("selmenu")
+    @ResponseBody
+    public Object selmenu(int rows,int page){
+        JSONObject json=menuService.selmenu(page,rows);
+        return json;
+    }
 }
 /*过恢复*/
+

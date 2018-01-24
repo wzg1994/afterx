@@ -8,4 +8,8 @@ import java.util.List;
 public interface MenuMapper {
 
     List<Menu> seltreebypid(@Param("pid") Integer pid);
+
+    long selmenucount();
+
+    List<Menu> selmenulist(@Param("start") int start, @Param("rows") int rows);
 }
