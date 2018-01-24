@@ -1,6 +1,6 @@
 package com.jk.dao;
 
-import com.jk.pojo.Score;
+
 import com.jk.pojo.User;
 import org.apache.ibatis.annotations.Param;
 

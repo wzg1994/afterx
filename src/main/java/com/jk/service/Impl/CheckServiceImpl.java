@@ -1,5 +1,6 @@
 package com.jk.service.Impl;
 
+import com.jk.dao.CheckMapper;
 import com.jk.pojo.Joketopic;
 import com.jk.pojo.Pictopic;
 import com.jk.pojo.Topic;

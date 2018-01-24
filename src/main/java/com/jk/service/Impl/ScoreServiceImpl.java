@@ -1,6 +1,7 @@
 package com.jk.service.Impl;
 
 
+import com.jk.dao.ScoreMapper;
 import com.jk.pojo.User;
 import com.jk.service.ScoreService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,5 +1,6 @@
 package com.jk.service.Impl;
 
+import com.jk.dao.MenuMapper;
 import com.jk.pojo.Menu;
 import com.jk.service.TreeService;
 import org.springframework.beans.factory.annotation.Autowired;
