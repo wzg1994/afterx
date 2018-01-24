@@ -2,14 +2,459 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aaca879-b591-4c81-9bcc-7c85659ca605" name="Default" comment="三">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ArtcommentMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ArticleMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ArticlescoreMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/AwardMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/BohuiMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/EmployeeMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/JobinfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/JokecommentMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/JokelikeMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/JoketopicMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/LeavemsgMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/LocationsMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/MoneyinfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/PhotoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/PicgroupMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/PictopicMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/PictopiccommentMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ScoreMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/SuggestMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/TopicMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/UserMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/UserinfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoiceMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoicecommentMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoicefontMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoicetopicMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/XiaoxijiluMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ZhuboMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Artcomment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Article.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Articlescore.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Award.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Bohui.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jobinfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jokecomment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jokelike.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Joketopic.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Leavemsg.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Locations.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Moneyinfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Photo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Picgroup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Pictopic.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Pictopiccomment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Score.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Suggest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Topic.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Userinfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Voice.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Voicecomment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Voicefont.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Voicetopic.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Xiaoxijilu.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Zhubo.java" />
       <change beforePath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/MenuMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/MenuMapper.java" />
       <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/User.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/User.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/MenuServiceImpl.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/MenuServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/MenuService.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/MenuService.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/MenuMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/MenuMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/menu/toselmenu.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/menu/toselmenu.jsp" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/ajax/dashboard-boxrefresh-demo.php" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/ajax/dashboard-boxrefresh-demo.php" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/bootstrap-slider/slider.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/bootstrap-slider/slider.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/bootstrap.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/colorpicker/bootstrap-colorpicker.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/colorpicker/bootstrap-colorpicker.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/colorpicker/bootstrap-colorpicker.min.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/colorpicker/bootstrap-colorpicker.min.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/datatables/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/datatables/dataTables.bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/daterangepicker/daterangepicker-bs3.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/daterangepicker/daterangepicker-bs3.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/font-awesome.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/fullcalendar/fullcalendar.print.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/fullcalendar/fullcalendar.print.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/all.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/all.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/_all.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/_all.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/aero.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/aero.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/blue.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/blue.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/flat.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/flat.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/green.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/green.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/grey.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/grey.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/orange.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/orange.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/pink.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/pink.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/purple.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/purple.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/red.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/red.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/yellow.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/flat/yellow.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/futurico/futurico.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/futurico/futurico.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/_all.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/_all.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/aero.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/aero.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/blue.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/blue.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/green.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/green.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/grey.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/grey.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/line.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/line.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/orange.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/orange.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/pink.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/pink.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/purple.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/purple.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/red.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/red.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/yellow.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/line/yellow.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/_all.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/_all.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/aero.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/aero.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/blue.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/blue.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/green.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/green.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/grey.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/grey.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/minimal.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/minimal.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/orange.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/orange.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/pink.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/pink.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/purple.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/purple.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/red.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/red.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/yellow.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/minimal/yellow.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/polaris/polaris.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/polaris/polaris.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/_all.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/_all.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/aero.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/aero.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/blue.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/blue.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/green.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/green.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/grey.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/grey.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/orange.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/orange.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/pink.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/pink.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/purple.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/purple.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/red.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/red.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/square.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/square.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/yellow.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/iCheck/square/yellow.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/ionicons.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/ionicons.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/ionicons.min.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/ionicons.min.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/ionslider/ion.rangeSlider.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/ionslider/ion.rangeSlider.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/ionslider/ion.rangeSlider.skinFlat.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/ionslider/ion.rangeSlider.skinFlat.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/ionslider/ion.rangeSlider.skinNice.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/ionslider/ion.rangeSlider.skinNice.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/jQueryUI/jquery-ui-1.10.3.custom.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/jQueryUI/jquery-ui-1.10.3.custom.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/jQueryUI/jquery-ui-1.10.3.custom.min.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/jQueryUI/jquery-ui-1.10.3.custom.min.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/jvectormap/jquery-jvectormap-1.2.2.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/jvectormap/jquery-jvectormap-1.2.2.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/morris/morris.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/morris/morris.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/timepicker/bootstrap-timepicker.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/timepicker/bootstrap-timepicker.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/css/timepicker/bootstrap-timepicker.min.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/css/timepicker/bootstrap-timepicker.min.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/fonts/ionicons.svg" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/fonts/ionicons.svg" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/AdminLTE/app.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/AdminLTE/app.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/AdminLTE/dashboard.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/AdminLTE/dashboard.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.old.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.old.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.old.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.old.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-dialog/dist/css/bootstrap-dialog.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-dialog/dist/css/bootstrap-dialog.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-dialog/dist/js/bootstrap-dialog.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-dialog/dist/js/bootstrap-dialog.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/fileinput.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/fileinput.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/fileinput.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/fileinput.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/locales/zh-TW.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/locales/zh-TW.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/locales/zh.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/locales/zh.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/canvas-to-blob.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/canvas-to-blob.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/purify.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/purify.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/purify.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/purify.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/sortable.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/sortable.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/sortable.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/js/plugins/sortable.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/themes/fa/theme.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/themes/fa/theme.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/themes/gly/theme.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-fileinput/themes/gly/theme.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table-locale-all.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table-locale-all.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table-locale-all.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table-locale-all.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/bootstrap-table.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/locale/bootstrap-table-zh-CN.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/locale/bootstrap-table-zh-CN.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/jquery-ui-1.10.3.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/jquery-ui-1.10.3.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/jquery-ui-1.10.3.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/jquery-ui-1.10.3.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/jquery.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/bootstrap-slider/bootstrap-slider.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/bootstrap-slider/bootstrap-slider.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/README.md" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/README.md" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/adapters/jquery.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/adapters/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/build-config.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/ckeditor.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/config.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/config.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/contents.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/contents.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/af.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/af.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ar.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ar.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/bg.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/bg.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/bn.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/bn.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/bs.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/bs.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ca.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ca.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/cs.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/cs.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/cy.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/cy.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/da.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/da.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/de.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/de.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/el.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/el.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/en-au.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/en-au.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/en-ca.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/en-ca.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/en-gb.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/en-gb.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/en.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/eo.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/eo.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/es.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/es.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/et.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/et.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/eu.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/eu.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/fa.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/fa.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/fi.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/fi.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/fo.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/fo.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/fr-ca.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/fr-ca.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/fr.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/fr.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/gl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/gl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/gu.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/gu.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/he.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/he.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/hi.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/hi.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/hr.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/hr.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/hu.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/hu.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/id.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/id.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/is.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/is.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/it.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/it.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ja.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ja.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ka.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ka.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/km.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/km.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ko.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ko.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ku.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ku.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/lt.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/lt.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/lv.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/lv.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/mk.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/mk.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/mn.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/mn.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ms.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ms.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/nb.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/nb.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/nl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/nl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/no.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/no.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/pl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/pl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/pt-br.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/pt-br.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/pt.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/pt.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ro.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ro.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ru.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ru.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/si.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/si.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sk.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sk.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sq.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sq.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sr-latn.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sr-latn.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sr.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sr.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sv.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/sv.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/th.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/th.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/tr.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/tr.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ug.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/ug.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/uk.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/uk.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/vi.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/vi.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/zh-cn.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/zh-cn.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/zh.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/lang/zh.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/about/dialogs/about.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/about/dialogs/about.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/dialog/dialogDefinition.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/image/dialogs/image.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/image/dialogs/image.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/link/dialogs/anchor.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/link/dialogs/anchor.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/link/dialogs/link.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/link/dialogs/link.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/pastefromword/filter/default.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/pastefromword/filter/default.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/scayt/dialogs/options.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/scayt/dialogs/options.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/table/dialogs/table.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/table/dialogs/table.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/tmp.html" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/tmp.html" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog_ie.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog_ie.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog_ie7.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog_ie7.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog_ie8.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog_ie8.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog_iequirks.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog_iequirks.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog_opera.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/dialog_opera.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor_gecko.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor_gecko.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor_ie.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor_ie.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor_ie7.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor_ie7.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor_ie8.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor_ie8.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor_iequirks.css" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/skins/moono/editor_iequirks.css" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/styles.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ckeditor/styles.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/colorpicker/bootstrap-colorpicker.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/colorpicker/bootstrap-colorpicker.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/datatables/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/datatables/dataTables.bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/datatables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/datatables/jquery.dataTables.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/daterangepicker/daterangepicker.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/daterangepicker/daterangepicker.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/excanvas.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/excanvas.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.colorhelpers.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.colorhelpers.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.canvas.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.canvas.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.categories.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.categories.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.crosshair.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.crosshair.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.errorbars.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.errorbars.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.fillbetween.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.fillbetween.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.image.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.image.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.navigate.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.navigate.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.pie.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.resize.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.selection.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.selection.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.stack.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.stack.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.symbol.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.symbol.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.threshold.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.threshold.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.time.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/flot/jquery.flot.time.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/fullcalendar/fullcalendar.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/fullcalendar/fullcalendar.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/fullcalendar/fullcalendar.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/fullcalendar/fullcalendar.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/iCheck/icheck.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/iCheck/icheck.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/iCheck/icheck.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/iCheck/icheck.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.date.extensions.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.date.extensions.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.extensions.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.extensions.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.numeric.extensions.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.numeric.extensions.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.phone.extensions.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.phone.extensions.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.regex.extensions.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/jquery.inputmask.regex.extensions.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/phone-codes/phone-be.json" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/phone-codes/phone-be.json" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/phone-codes/phone-codes.json" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/input-mask/phone-codes/phone-codes.json" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ionslider/ion.rangeSlider.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/ionslider/ion.rangeSlider.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/jqueryKnob/jquery.knob.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/jqueryKnob/jquery.knob.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/misc/html5shiv.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/misc/html5shiv.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/misc/jquery.ba-resize.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/misc/jquery.ba-resize.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/misc/jquery.placeholder.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/misc/jquery.placeholder.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/misc/modernizr.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/misc/modernizr.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/morris/morris.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/morris/morris.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/morris/morris.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/morris/morris.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/slimScroll/jquery.slimscroll.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/slimScroll/jquery.slimscroll.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/slimScroll/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/slimScroll/jquery.slimscroll.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/slimScroll/slimScroll.jquery.json" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/slimScroll/slimScroll.jquery.json" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/sparkline/jquery.sparkline.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/sparkline/jquery.sparkline.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/sparkline/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/sparkline/jquery.sparkline.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/timepicker/bootstrap-timepicker.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/timepicker/bootstrap-timepicker.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/timepicker/bootstrap-timepicker.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/plugins/timepicker/bootstrap-timepicker.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/js/raphael-min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/raphael-min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/404_500_errors.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/404_500_errors.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/AdminLTE.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/AdminLTE.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/alerts.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/alerts.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/bootstrap-social.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/bootstrap-social.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/boxes.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/boxes.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/buttons.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/buttons.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/callout.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/callout.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/core.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/core.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/dropdown.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/dropdown.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/forms.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/forms.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/header.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/header.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/iCheck.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/iCheck.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/invoice.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/invoice.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/lockscreen.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/lockscreen.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/login_and_register.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/login_and_register.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/mailbox.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/mailbox.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/mixins.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/mixins.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/navs.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/navs.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/pace.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/pace.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/progress-bars.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/progress-bars.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/sidebar.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/sidebar.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/skins.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/skins.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/small-box.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/small-box.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/timeline.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/timeline.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/less/vars.less" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/less/vars.less" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/pages/charts/js/jquery.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/pages/charts/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/pages/charts/js/raphael-min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/pages/charts/js/raphael-min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/pages/js/jquery.min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/pages/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/pages/js/raphael-min.js" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/pages/js/raphael-min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,11 +499,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MenuServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/MenuServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="286">
+              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Artcomment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Artcomment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleMapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ArticleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -67,7 +532,7 @@
       <file leaf-file-name="TreeServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/TreeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="330">
               <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding />
             </state>
@@ -173,7 +638,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/..///////////////////apache-maven-3.5.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/..////////////////////apache-maven-3.5.2" />
         <option name="userSettingsFile" value="D:\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -224,6 +689,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,36 +709,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="afterx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="afterx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="afterx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -452,7 +895,8 @@
       <workItem from="1516345061183" duration="4859000" />
       <workItem from="1516352536429" duration="5491000" />
       <workItem from="1516775701230" duration="1728000" />
-      <workItem from="1516779455903" duration="782000" />
+      <workItem from="1516779455903" duration="1725000" />
+      <workItem from="1516792639614" duration="1007000" />
     </task>
     <task id="LOCAL-00001" summary="VC">
       <created>1516278006340</created>
@@ -496,15 +940,21 @@
       <option name="project" value="LOCAL" />
       <updated>1516345330552</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="三">
+      <created>1516780356996</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1516780356996</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65721000" />
+    <option name="totallyTimeSpent" value="67671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -520,7 +970,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30711043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31164902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -541,6 +991,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -695,7 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,11 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <marker date="1516353592545" expanded="true" signature="276:348" ph="SELECT id,pi... " />
-            <marker date="1516353592545" expanded="true" signature="410:435" ph="SELECT count... menu" />
-            <marker date="1516353592545" expanded="true" signature="510:551" ph="SELECT * FRO... menu" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,24 +1196,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Artcomment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/resources/mapper/ArtcommentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516357977389" expanded="true" signature="818:944" ph="select from artcomment" />
-            <marker date="1516357977389" expanded="true" signature="1031:1111" ph="delete from artcomment... " />
-            <marker date="1516357977389" expanded="true" signature="1191:1433" ph="insert into artcomment... " />
-            <marker date="1516357977389" expanded="true" signature="2533:2997" ph="update artcomment... " />
-            <marker date="1516357977389" expanded="true" signature="3089:3338" ph="update artcomment... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,13 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <marker date="1516193142920" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516193142920" expanded="false" signature="149:365" ph="..." />
-            <marker date="1516193142920" expanded="true" signature="766:899" ph="{...}" />
-            <marker date="1516193142920" expanded="true" signature="987:1401" ph="{...}" />
-            <marker date="1516193142920" expanded="true" signature="1462:1792" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,7 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +1251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,9 +1259,9 @@
         <state relative-caret-position="-71">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#666#667#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -841,15 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ArticleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,7 +1312,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/TreeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="330">
           <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding />
         </state>
@@ -903,8 +1320,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/MenuServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="286">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Artcomment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
       </provider>

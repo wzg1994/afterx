@@ -11,6 +11,16 @@ public class User {
 
     private Integer userinfo;
 
+    private String userscore;
+
+    public String getUserscore() {
+        return userscore;
+    }
+
+    public void setUserscore(String userscore) {
+        this.userscore = userscore;
+    }
+
     public Integer getUserid() {
         return userid;
     }
