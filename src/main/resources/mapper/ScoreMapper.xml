@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.ScoreMapper" >
+  <select id="queryScoreCount" resultType="long">
+      SELECT count(*)
+      from user u,userinfo ui,score s
+      where u.userinfo = ui.userinfoid
+      AND u.userid =s.userid
+      AND ui.userscore = s.scoreid
+  </select>
+  <select id="queryScorePage" resultType="com.jk.pojo.User">
+      SELECT u.userid,u.username,s.scorecount userscore
+      from user u,userinfo ui,score s
+      where u.userinfo = ui.userinfoid
+      AND u.userid =s.userid
+      AND ui.userscore = s.scoreid
+  </select>
+  <update id="addScore">
+    UPDATE score s SET s.scorecount = s.scorecount + #{ucount} WHERE s.userid = #{userid}
+  </update>
+</mapper>

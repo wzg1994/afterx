@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.UserinfoMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Userinfo" >
+    <id column="userinfoid" property="userinfoid" jdbcType="INTEGER" />
+    <result column="usersign" property="usersign" jdbcType="VARCHAR" />
+    <result column="userscore" property="userscore" jdbcType="INTEGER" />
+    <result column="userlocation" property="userlocation" jdbcType="INTEGER" />
+    <result column="usersex" property="usersex" jdbcType="INTEGER" />
+    <result column="userbirthday" property="userbirthday" jdbcType="DATE" />
+    <result column="userlove" property="userlove" jdbcType="INTEGER" />
+    <result column="usernowlocation" property="usernowlocation" jdbcType="INTEGER" />
+    <result column="userhometown" property="userhometown" jdbcType="INTEGER" />
+    <result column="userjob" property="userjob" jdbcType="INTEGER" />
+    <result column="usermail" property="usermail" jdbcType="VARCHAR" />
+    <result column="userpic" property="userpic" jdbcType="VARCHAR" />
+    <result column="userphone" property="userphone" jdbcType="VARCHAR" />
+    <result column="userqq" property="userqq" jdbcType="VARCHAR" />
+    <result column="userwechat" property="userwechat" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    userinfoid, usersign, userscore, userlocation, usersex, userbirthday, userlove, usernowlocation, 
+    userhometown, userjob, usermail, userpic, userphone, userqq, userwechat
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from userinfo
+    where userinfoid = #{userinfoid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from userinfo
+    where userinfoid = #{userinfoid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Userinfo" >
+    insert into userinfo (userinfoid, usersign, userscore, 
+      userlocation, usersex, userbirthday, 
+      userlove, usernowlocation, userhometown, 
+      userjob, usermail, userpic, 
+      userphone, userqq, userwechat
+      )
+    values (#{userinfoid,jdbcType=INTEGER}, #{usersign,jdbcType=VARCHAR}, #{userscore,jdbcType=INTEGER}, 
+      #{userlocation,jdbcType=INTEGER}, #{usersex,jdbcType=INTEGER}, #{userbirthday,jdbcType=DATE}, 
+      #{userlove,jdbcType=INTEGER}, #{usernowlocation,jdbcType=INTEGER}, #{userhometown,jdbcType=INTEGER}, 
+      #{userjob,jdbcType=INTEGER}, #{usermail,jdbcType=VARCHAR}, #{userpic,jdbcType=VARCHAR}, 
+      #{userphone,jdbcType=VARCHAR}, #{userqq,jdbcType=VARCHAR}, #{userwechat,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Userinfo" >
+    insert into userinfo
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="userinfoid != null" >
+        userinfoid,
+      </if>
+      <if test="usersign != null" >
+        usersign,
+      </if>
+      <if test="userscore != null" >
+        userscore,
+      </if>
+      <if test="userlocation != null" >
+        userlocation,
+      </if>
+      <if test="usersex != null" >
+        usersex,
+      </if>
+      <if test="userbirthday != null" >
+        userbirthday,
+      </if>
+      <if test="userlove != null" >
+        userlove,
+      </if>
+      <if test="usernowlocation != null" >
+        usernowlocation,
+      </if>
+      <if test="userhometown != null" >
+        userhometown,
+      </if>
+      <if test="userjob != null" >
+        userjob,
+      </if>
+      <if test="usermail != null" >
+        usermail,
+      </if>
+      <if test="userpic != null" >
+        userpic,
+      </if>
+      <if test="userphone != null" >
+        userphone,
+      </if>
+      <if test="userqq != null" >
+        userqq,
+      </if>
+      <if test="userwechat != null" >
+        userwechat,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="userinfoid != null" >
+        #{userinfoid,jdbcType=INTEGER},
+      </if>
+      <if test="usersign != null" >
+        #{usersign,jdbcType=VARCHAR},
+      </if>
+      <if test="userscore != null" >
+        #{userscore,jdbcType=INTEGER},
+      </if>
+      <if test="userlocation != null" >
+        #{userlocation,jdbcType=INTEGER},
+      </if>
+      <if test="usersex != null" >
+        #{usersex,jdbcType=INTEGER},
+      </if>
+      <if test="userbirthday != null" >
+        #{userbirthday,jdbcType=DATE},
+      </if>
+      <if test="userlove != null" >
+        #{userlove,jdbcType=INTEGER},
+      </if>
+      <if test="usernowlocation != null" >
+        #{usernowlocation,jdbcType=INTEGER},
+      </if>
+      <if test="userhometown != null" >
+        #{userhometown,jdbcType=INTEGER},
+      </if>
+      <if test="userjob != null" >
+        #{userjob,jdbcType=INTEGER},
+      </if>
+      <if test="usermail != null" >
+        #{usermail,jdbcType=VARCHAR},
+      </if>
+      <if test="userpic != null" >
+        #{userpic,jdbcType=VARCHAR},
+      </if>
+      <if test="userphone != null" >
+        #{userphone,jdbcType=VARCHAR},
+      </if>
+      <if test="userqq != null" >
+        #{userqq,jdbcType=VARCHAR},
+      </if>
+      <if test="userwechat != null" >
+        #{userwechat,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Userinfo" >
+    update userinfo
+    <set >
+      <if test="usersign != null" >
+        usersign = #{usersign,jdbcType=VARCHAR},
+      </if>
+      <if test="userscore != null" >
+        userscore = #{userscore,jdbcType=INTEGER},
+      </if>
+      <if test="userlocation != null" >
+        userlocation = #{userlocation,jdbcType=INTEGER},
+      </if>
+      <if test="usersex != null" >
+        usersex = #{usersex,jdbcType=INTEGER},
+      </if>
+      <if test="userbirthday != null" >
+        userbirthday = #{userbirthday,jdbcType=DATE},
+      </if>
+      <if test="userlove != null" >
+        userlove = #{userlove,jdbcType=INTEGER},
+      </if>
+      <if test="usernowlocation != null" >
+        usernowlocation = #{usernowlocation,jdbcType=INTEGER},
+      </if>
+      <if test="userhometown != null" >
+        userhometown = #{userhometown,jdbcType=INTEGER},
+      </if>
+      <if test="userjob != null" >
+        userjob = #{userjob,jdbcType=INTEGER},
+      </if>
+      <if test="usermail != null" >
+        usermail = #{usermail,jdbcType=VARCHAR},
+      </if>
+      <if test="userpic != null" >
+        userpic = #{userpic,jdbcType=VARCHAR},
+      </if>
+      <if test="userphone != null" >
+        userphone = #{userphone,jdbcType=VARCHAR},
+      </if>
+      <if test="userqq != null" >
+        userqq = #{userqq,jdbcType=VARCHAR},
+      </if>
+      <if test="userwechat != null" >
+        userwechat = #{userwechat,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where userinfoid = #{userinfoid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Userinfo" >
+    update userinfo
+    set usersign = #{usersign,jdbcType=VARCHAR},
+      userscore = #{userscore,jdbcType=INTEGER},
+      userlocation = #{userlocation,jdbcType=INTEGER},
+      usersex = #{usersex,jdbcType=INTEGER},
+      userbirthday = #{userbirthday,jdbcType=DATE},
+      userlove = #{userlove,jdbcType=INTEGER},
+      usernowlocation = #{usernowlocation,jdbcType=INTEGER},
+      userhometown = #{userhometown,jdbcType=INTEGER},
+      userjob = #{userjob,jdbcType=INTEGER},
+      usermail = #{usermail,jdbcType=VARCHAR},
+      userpic = #{userpic,jdbcType=VARCHAR},
+      userphone = #{userphone,jdbcType=VARCHAR},
+      userqq = #{userqq,jdbcType=VARCHAR},
+      userwechat = #{userwechat,jdbcType=VARCHAR}
+    where userinfoid = #{userinfoid,jdbcType=INTEGER}
+  </update>
+</mapper>

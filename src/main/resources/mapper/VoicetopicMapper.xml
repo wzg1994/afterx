@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.VoicetopicMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Voicetopic" >
+    <id column="voiceid" property="voiceid" jdbcType="INTEGER" />
+    <result column="voicetitle" property="voicetitle" jdbcType="VARCHAR" />
+    <result column="zhuboid" property="zhuboid" jdbcType="INTEGER" />
+    <result column="voicefrom" property="voicefrom" jdbcType="INTEGER" />
+    <result column="voicetime" property="voicetime" jdbcType="DATE" />
+    <result column="voicimg" property="voicimg" jdbcType="VARCHAR" />
+    <result column="voicyn" property="voicyn" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    voiceid, voicetitle, zhuboid, voicefrom, voicetime, voicimg, voicyn
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from voicetopic
+    where voiceid = #{voiceid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from voicetopic
+    where voiceid = #{voiceid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Voicetopic" >
+    insert into voicetopic (voiceid, voicetitle, zhuboid, 
+      voicefrom, voicetime, voicimg, 
+      voicyn)
+    values (#{voiceid,jdbcType=INTEGER}, #{voicetitle,jdbcType=VARCHAR}, #{zhuboid,jdbcType=INTEGER}, 
+      #{voicefrom,jdbcType=INTEGER}, #{voicetime,jdbcType=DATE}, #{voicimg,jdbcType=VARCHAR}, 
+      #{voicyn,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Voicetopic" >
+    insert into voicetopic
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="voiceid != null" >
+        voiceid,
+      </if>
+      <if test="voicetitle != null" >
+        voicetitle,
+      </if>
+      <if test="zhuboid != null" >
+        zhuboid,
+      </if>
+      <if test="voicefrom != null" >
+        voicefrom,
+      </if>
+      <if test="voicetime != null" >
+        voicetime,
+      </if>
+      <if test="voicimg != null" >
+        voicimg,
+      </if>
+      <if test="voicyn != null" >
+        voicyn,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="voiceid != null" >
+        #{voiceid,jdbcType=INTEGER},
+      </if>
+      <if test="voicetitle != null" >
+        #{voicetitle,jdbcType=VARCHAR},
+      </if>
+      <if test="zhuboid != null" >
+        #{zhuboid,jdbcType=INTEGER},
+      </if>
+      <if test="voicefrom != null" >
+        #{voicefrom,jdbcType=INTEGER},
+      </if>
+      <if test="voicetime != null" >
+        #{voicetime,jdbcType=DATE},
+      </if>
+      <if test="voicimg != null" >
+        #{voicimg,jdbcType=VARCHAR},
+      </if>
+      <if test="voicyn != null" >
+        #{voicyn,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Voicetopic" >
+    update voicetopic
+    <set >
+      <if test="voicetitle != null" >
+        voicetitle = #{voicetitle,jdbcType=VARCHAR},
+      </if>
+      <if test="zhuboid != null" >
+        zhuboid = #{zhuboid,jdbcType=INTEGER},
+      </if>
+      <if test="voicefrom != null" >
+        voicefrom = #{voicefrom,jdbcType=INTEGER},
+      </if>
+      <if test="voicetime != null" >
+        voicetime = #{voicetime,jdbcType=DATE},
+      </if>
+      <if test="voicimg != null" >
+        voicimg = #{voicimg,jdbcType=VARCHAR},
+      </if>
+      <if test="voicyn != null" >
+        voicyn = #{voicyn,jdbcType=INTEGER},
+      </if>
+    </set>
+    where voiceid = #{voiceid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Voicetopic" >
+    update voicetopic
+    set voicetitle = #{voicetitle,jdbcType=VARCHAR},
+      zhuboid = #{zhuboid,jdbcType=INTEGER},
+      voicefrom = #{voicefrom,jdbcType=INTEGER},
+      voicetime = #{voicetime,jdbcType=DATE},
+      voicimg = #{voicimg,jdbcType=VARCHAR},
+      voicyn = #{voicyn,jdbcType=INTEGER}
+    where voiceid = #{voiceid,jdbcType=INTEGER}
+  </update>
+</mapper>

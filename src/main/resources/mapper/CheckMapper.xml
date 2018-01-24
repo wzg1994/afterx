@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.CheckMapper" >
+<select id="queryTopCount" resultType="long">
+  SELECT count(*) FROM topic WHERE topicyn = 2
+</select>
+  <select id="queryTopPage" resultType="com.jk.pojo.Topic">
+    SELECT * from topic t WHERE t.topicyn = 2
+    limit #{st},#{rows}
+  </select>
+  <select id="queryPicCount" resultType="long">
+    SELECT count(*) FROM pictopic WHERE picyn = 2
+  </select>
+  <select id="queryPicPage" resultType="com.jk.pojo.Pictopic">
+    SELECT * from pictopic p WHERE p.picyn = 2
+    limit #{st},#{rows}
+  </select>
+  <select id="queryVoipCount" resultType="long">
+    SELECT count(*) FROM voicetopic  WHERE voicyn = 2
+  </select>
+  <select id="queryVoidPage" resultType="com.jk.pojo.Voicetopic">
+    SELECT * from voicetopic v WHERE v.voicyn = 2
+    limit #{st},#{rows}
+  </select>
+  <select id="queryJokpCount" resultType="long">
+    SELECT count(*) FROM joketopic  WHERE jokeyn = 2
+  </select>
+  <select id="queryJokpPage" resultType="com.jk.pojo.Joketopic">
+    SELECT * from joketopic j WHERE j.jokeyn = 2
+    limit #{st},#{rows}
+  </select>
+  <update id="upartYn">
+    UPDATE topic t SET t.topicyn = 1 WHERE t.topicid = #{topicid}
+  </update>
+  <update id="upartYn2">
+    UPDATE topic t SET t.topicyn = 3 WHERE t.topicid = #{topicid}
+  </update>
+  <update id="updatePitop">
+    UPDATE topic t SET t.topicyn = 1 WHERE t.topicid IN (${tid})
+  </update>
+  <update id="uppicYn">
+    UPDATE pictopic p SET p.picyn = 1 WHERE p.pictopicid = #{pictopicid}
+  </update>
+  <update id="uppicYn2">
+    UPDATE pictopic p SET p.picyn = 3 WHERE p.pictopicid = #{pictopicid}
+  </update>
+  <update id="updatePipic">
+    UPDATE pictopic p SET p.picyn = 1 WHERE p.pictopicid IN (${pictid})
+  </update>
+  <update id="upvoipYn">
+    UPDATE voicetopic v SET v.voicyn = 1 WHERE v.voiceid = #{voiceid}
+  </update>
+  <update id="upvoipYn2">
+    UPDATE voicetopic v SET v.voicyn = 3 WHERE v.voiceid = #{voiceid}
+  </update>
+  <update id="updatePivoip">
+    UPDATE voicetopic v SET v.voicyn = 1 WHERE v.voiceid IN (${voicid})
+  </update>
+  <update id="upjokYn">
+    UPDATE joketopic j SET j.jokeyn = 1 WHERE j.jokeid = #{jokeid}
+  </update>
+  <update id="upjokYn2">
+    UPDATE joketopic j SET j.jokeyn = 3 WHERE j.jokeid = #{jokeid}
+  </update>
+  <update id="updatePijok">
+    UPDATE joketopic j SET j.jokeyn = 1 WHERE j.jokeid IN (${jid})
+  </update>
+</mapper>

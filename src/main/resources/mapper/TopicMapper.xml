@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.TopicMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Topic" >
+    <id column="topicid" property="topicid" jdbcType="INTEGER" />
+    <result column="topictitle" property="topictitle" jdbcType="VARCHAR" />
+    <result column="topiccontent" property="topiccontent" jdbcType="VARCHAR" />
+    <result column="topicstarttime" property="topicstarttime" jdbcType="DATE" />
+    <result column="topicendtime" property="topicendtime" jdbcType="DATE" />
+    <result column="topicyn" property="topicyn" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    topicid, topictitle, topiccontent, topicstarttime, topicendtime, topicyn
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from topic
+    where topicid = #{topicid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from topic
+    where topicid = #{topicid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Topic" >
+    insert into topic (topicid, topictitle, topiccontent, 
+      topicstarttime, topicendtime, topicyn
+      )
+    values (#{topicid,jdbcType=INTEGER}, #{topictitle,jdbcType=VARCHAR}, #{topiccontent,jdbcType=VARCHAR}, 
+      #{topicstarttime,jdbcType=DATE}, #{topicendtime,jdbcType=DATE}, #{topicyn,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Topic" >
+    insert into topic
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="topicid != null" >
+        topicid,
+      </if>
+      <if test="topictitle != null" >
+        topictitle,
+      </if>
+      <if test="topiccontent != null" >
+        topiccontent,
+      </if>
+      <if test="topicstarttime != null" >
+        topicstarttime,
+      </if>
+      <if test="topicendtime != null" >
+        topicendtime,
+      </if>
+      <if test="topicyn != null" >
+        topicyn,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="topicid != null" >
+        #{topicid,jdbcType=INTEGER},
+      </if>
+      <if test="topictitle != null" >
+        #{topictitle,jdbcType=VARCHAR},
+      </if>
+      <if test="topiccontent != null" >
+        #{topiccontent,jdbcType=VARCHAR},
+      </if>
+      <if test="topicstarttime != null" >
+        #{topicstarttime,jdbcType=DATE},
+      </if>
+      <if test="topicendtime != null" >
+        #{topicendtime,jdbcType=DATE},
+      </if>
+      <if test="topicyn != null" >
+        #{topicyn,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Topic" >
+    update topic
+    <set >
+      <if test="topictitle != null" >
+        topictitle = #{topictitle,jdbcType=VARCHAR},
+      </if>
+      <if test="topiccontent != null" >
+        topiccontent = #{topiccontent,jdbcType=VARCHAR},
+      </if>
+      <if test="topicstarttime != null" >
+        topicstarttime = #{topicstarttime,jdbcType=DATE},
+      </if>
+      <if test="topicendtime != null" >
+        topicendtime = #{topicendtime,jdbcType=DATE},
+      </if>
+      <if test="topicyn != null" >
+        topicyn = #{topicyn,jdbcType=INTEGER},
+      </if>
+    </set>
+    where topicid = #{topicid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Topic" >
+    update topic
+    set topictitle = #{topictitle,jdbcType=VARCHAR},
+      topiccontent = #{topiccontent,jdbcType=VARCHAR},
+      topicstarttime = #{topicstarttime,jdbcType=DATE},
+      topicendtime = #{topicendtime,jdbcType=DATE},
+      topicyn = #{topicyn,jdbcType=INTEGER}
+    where topicid = #{topicid,jdbcType=INTEGER}
+  </update>
+</mapper>

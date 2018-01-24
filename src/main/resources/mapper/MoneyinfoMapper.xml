@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.MoneyinfoMapper" >
+  <select id="queryMoneyCount" resultType="long">
+    SELECT count(*)
+      from user u,userinfo ui,moneyinfo m
+      where u.userinfo = ui.userinfoid
+      AND u.userid =m.userid
+      AND ui.userscore = m.moneyid
+  </select>
+  <select id="queryMoneyPage" resultType="com.jk.pojo.Moneyinfo">
+        SELECT u.userid,u.username uname,m.monycount,m.reply,m.time,m.status
+          from user u,userinfo ui,moneyinfo m
+          where u.userinfo = ui.userinfoid
+          AND u.userid =m.userid
+          AND ui.usermoney  = m.moneyid
+    limit #{st},#{rows}
+  </select>
+  <update id="updateMonyn">
+    UPDATE moneyinfo m SET m.status = 2 WHERE m.userid = #{userid}
+  </update>
+  <update id="updateMonyn2">
+    UPDATE moneyinfo m SET m.status = 1 WHERE m.userid = #{userid}
+  </update>
+</mapper>

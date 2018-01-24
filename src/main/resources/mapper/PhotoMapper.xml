@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.PhotoMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Photo" >
+    <id column="photoid" property="photoid" jdbcType="INTEGER" />
+    <result column="photourl" property="photourl" jdbcType="VARCHAR" />
+    <result column="userid" property="userid" jdbcType="INTEGER" />
+    <result column="time" property="time" jdbcType="DATE" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    photoid, photourl, userid, time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from photo
+    where photoid = #{photoid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from photo
+    where photoid = #{photoid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Photo" >
+    insert into photo (photoid, photourl, userid, 
+      time)
+    values (#{photoid,jdbcType=INTEGER}, #{photourl,jdbcType=VARCHAR}, #{userid,jdbcType=INTEGER}, 
+      #{time,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Photo" >
+    insert into photo
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="photoid != null" >
+        photoid,
+      </if>
+      <if test="photourl != null" >
+        photourl,
+      </if>
+      <if test="userid != null" >
+        userid,
+      </if>
+      <if test="time != null" >
+        time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="photoid != null" >
+        #{photoid,jdbcType=INTEGER},
+      </if>
+      <if test="photourl != null" >
+        #{photourl,jdbcType=VARCHAR},
+      </if>
+      <if test="userid != null" >
+        #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="time != null" >
+        #{time,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Photo" >
+    update photo
+    <set >
+      <if test="photourl != null" >
+        photourl = #{photourl,jdbcType=VARCHAR},
+      </if>
+      <if test="userid != null" >
+        userid = #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="time != null" >
+        time = #{time,jdbcType=DATE},
+      </if>
+    </set>
+    where photoid = #{photoid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Photo" >
+    update photo
+    set photourl = #{photourl,jdbcType=VARCHAR},
+      userid = #{userid,jdbcType=INTEGER},
+      time = #{time,jdbcType=DATE}
+    where photoid = #{photoid,jdbcType=INTEGER}
+  </update>
+</mapper>

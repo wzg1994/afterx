@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.JoketopicMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Joketopic" >
+    <id column="jokeid" property="jokeid" jdbcType="INTEGER" />
+    <result column="joketitle" property="joketitle" jdbcType="VARCHAR" />
+    <result column="joketime" property="joketime" jdbcType="DATE" />
+    <result column="jokecontent" property="jokecontent" jdbcType="VARCHAR" />
+    <result column="typeid" property="typeid" jdbcType="INTEGER" />
+    <result column="adminid" property="adminid" jdbcType="INTEGER" />
+    <result column="jokeyn" property="jokeyn" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    jokeid, joketitle, joketime, jokecontent, typeid, adminid, jokeyn
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from joketopic
+    where jokeid = #{jokeid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from joketopic
+    where jokeid = #{jokeid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Joketopic" >
+    insert into joketopic (jokeid, joketitle, joketime, 
+      jokecontent, typeid, adminid, 
+      jokeyn)
+    values (#{jokeid,jdbcType=INTEGER}, #{joketitle,jdbcType=VARCHAR}, #{joketime,jdbcType=DATE}, 
+      #{jokecontent,jdbcType=VARCHAR}, #{typeid,jdbcType=INTEGER}, #{adminid,jdbcType=INTEGER}, 
+      #{jokeyn,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Joketopic" >
+    insert into joketopic
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="jokeid != null" >
+        jokeid,
+      </if>
+      <if test="joketitle != null" >
+        joketitle,
+      </if>
+      <if test="joketime != null" >
+        joketime,
+      </if>
+      <if test="jokecontent != null" >
+        jokecontent,
+      </if>
+      <if test="typeid != null" >
+        typeid,
+      </if>
+      <if test="adminid != null" >
+        adminid,
+      </if>
+      <if test="jokeyn != null" >
+        jokeyn,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="jokeid != null" >
+        #{jokeid,jdbcType=INTEGER},
+      </if>
+      <if test="joketitle != null" >
+        #{joketitle,jdbcType=VARCHAR},
+      </if>
+      <if test="joketime != null" >
+        #{joketime,jdbcType=DATE},
+      </if>
+      <if test="jokecontent != null" >
+        #{jokecontent,jdbcType=VARCHAR},
+      </if>
+      <if test="typeid != null" >
+        #{typeid,jdbcType=INTEGER},
+      </if>
+      <if test="adminid != null" >
+        #{adminid,jdbcType=INTEGER},
+      </if>
+      <if test="jokeyn != null" >
+        #{jokeyn,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Joketopic" >
+    update joketopic
+    <set >
+      <if test="joketitle != null" >
+        joketitle = #{joketitle,jdbcType=VARCHAR},
+      </if>
+      <if test="joketime != null" >
+        joketime = #{joketime,jdbcType=DATE},
+      </if>
+      <if test="jokecontent != null" >
+        jokecontent = #{jokecontent,jdbcType=VARCHAR},
+      </if>
+      <if test="typeid != null" >
+        typeid = #{typeid,jdbcType=INTEGER},
+      </if>
+      <if test="adminid != null" >
+        adminid = #{adminid,jdbcType=INTEGER},
+      </if>
+      <if test="jokeyn != null" >
+        jokeyn = #{jokeyn,jdbcType=INTEGER},
+      </if>
+    </set>
+    where jokeid = #{jokeid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Joketopic" >
+    update joketopic
+    set joketitle = #{joketitle,jdbcType=VARCHAR},
+      joketime = #{joketime,jdbcType=DATE},
+      jokecontent = #{jokecontent,jdbcType=VARCHAR},
+      typeid = #{typeid,jdbcType=INTEGER},
+      adminid = #{adminid,jdbcType=INTEGER},
+      jokeyn = #{jokeyn,jdbcType=INTEGER}
+    where jokeid = #{jokeid,jdbcType=INTEGER}
+  </update>
+</mapper>

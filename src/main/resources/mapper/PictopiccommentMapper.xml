@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.PictopiccommentMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Pictopiccomment" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="content" property="content" jdbcType="VARCHAR" />
+    <result column="userid" property="userid" jdbcType="INTEGER" />
+    <result column="picid" property="picid" jdbcType="INTEGER" />
+    <result column="photoid" property="photoid" jdbcType="INTEGER" />
+    <result column="time" property="time" jdbcType="DATE" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, content, userid, picid, photoid, time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from pictopiccomment
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from pictopiccomment
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Pictopiccomment" >
+    insert into pictopiccomment (id, content, userid, 
+      picid, photoid, time)
+    values (#{id,jdbcType=INTEGER}, #{content,jdbcType=VARCHAR}, #{userid,jdbcType=INTEGER}, 
+      #{picid,jdbcType=INTEGER}, #{photoid,jdbcType=INTEGER}, #{time,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Pictopiccomment" >
+    insert into pictopiccomment
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="content != null" >
+        content,
+      </if>
+      <if test="userid != null" >
+        userid,
+      </if>
+      <if test="picid != null" >
+        picid,
+      </if>
+      <if test="photoid != null" >
+        photoid,
+      </if>
+      <if test="time != null" >
+        time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="content != null" >
+        #{content,jdbcType=VARCHAR},
+      </if>
+      <if test="userid != null" >
+        #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="picid != null" >
+        #{picid,jdbcType=INTEGER},
+      </if>
+      <if test="photoid != null" >
+        #{photoid,jdbcType=INTEGER},
+      </if>
+      <if test="time != null" >
+        #{time,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Pictopiccomment" >
+    update pictopiccomment
+    <set >
+      <if test="content != null" >
+        content = #{content,jdbcType=VARCHAR},
+      </if>
+      <if test="userid != null" >
+        userid = #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="picid != null" >
+        picid = #{picid,jdbcType=INTEGER},
+      </if>
+      <if test="photoid != null" >
+        photoid = #{photoid,jdbcType=INTEGER},
+      </if>
+      <if test="time != null" >
+        time = #{time,jdbcType=DATE},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Pictopiccomment" >
+    update pictopiccomment
+    set content = #{content,jdbcType=VARCHAR},
+      userid = #{userid,jdbcType=INTEGER},
+      picid = #{picid,jdbcType=INTEGER},
+      photoid = #{photoid,jdbcType=INTEGER},
+      time = #{time,jdbcType=DATE}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
