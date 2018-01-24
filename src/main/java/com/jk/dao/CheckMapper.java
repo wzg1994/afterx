@@ -21,7 +21,7 @@ public interface CheckMapper {
 
     long queryPicCount(Pictopic pictopic);
 
-    List<Pictopic> queryPicPage(@Param("st") int start,@Param("rows") int rows,@Param("pic") Pictopic pictopic);
+    List<Pictopic> queryPicPage(@Param("st") int start, @Param("rows") int rows, @Param("pic") Pictopic pictopic);
 
     void uppicYn(Pictopic pictopic);
 
@@ -31,21 +31,21 @@ public interface CheckMapper {
 
     long queryVoipCount(Voicetopic voicetopic);
 
-    List<Voicetopic> queryVoidPage(@Param("st")int start,@Param("rows") int rows,@Param("voip") Voicetopic voicetopic);
+    List<Voicetopic> queryVoidPage(@Param("st") int start, @Param("rows") int rows, @Param("voip") Voicetopic voicetopic);
 
     void upvoipYn(Voicetopic voicetopic);
 
     void upvoipYn2(Voicetopic voicetopic);
 
-    void updatePivoip(@Param("voicid")String voiceid);
+    void updatePivoip(@Param("voicid") String voiceid);
 
     void upjokYn(Joketopic joketopic);
 
     void upjokYn2(Joketopic joketopic);
 
-    void updatePijok(@Param("jid")String jokeid);
+    void updatePijok(@Param("jid") String jokeid);
 
     long queryJokpCount(Joketopic joketopic);
 
-    List<Joketopic> queryJokpPage(@Param("st")int start, @Param("rows")int rows,@Param("jokp") Joketopic joketopic);
+    List<Joketopic> queryJokpPage(@Param("st") int start, @Param("rows") int rows, @Param("jokp") Joketopic joketopic);
 }

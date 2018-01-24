@@ -2,7 +2,6 @@ package com.jk.service.Impl;
 
 import com.jk.dao.MoneyinfoMapper;
 import com.jk.pojo.Moneyinfo;
-import com.jk.pojo.User;
 import com.jk.service.MoneyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

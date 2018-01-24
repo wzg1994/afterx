@@ -1,17 +1,18 @@
 package com.jk.dao;
 
 import com.jk.pojo.Moneyinfo;
+import com.jk.pojo.User;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface MoneyinfoMapper {
-    int deleteByPrimaryKey(Integer moneyid);
 
-    int insert(Moneyinfo record);
+    long queryMoneyCount(Moneyinfo moneyinfo);
 
-    int insertSelective(Moneyinfo record);
+    List<Moneyinfo> queryMoneyPage(@Param("st") int start, @Param("rows") int rows, @Param("mon") Moneyinfo moneyinfo);
 
-    Moneyinfo selectByPrimaryKey(Integer moneyid);
+    void updateMonyn(Moneyinfo moneyinfo);
 
-    int updateByPrimaryKeySelective(Moneyinfo record);
-
-    int updateByPrimaryKey(Moneyinfo record);
+    void updateMonyn2(Moneyinfo moneyinfo);
 }

@@ -1,17 +1,16 @@
 package com.jk.dao;
 
 import com.jk.pojo.Score;
+import com.jk.pojo.User;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface ScoreMapper {
-    int deleteByPrimaryKey(Integer scoreid);
 
-    int insert(Score record);
+    long queryScoreCount(User user);
 
-    int insertSelective(Score record);
+    List<User> queryScorePage(int start, int rows, User user);
 
-    Score selectByPrimaryKey(Integer scoreid);
-
-    int updateByPrimaryKeySelective(Score record);
-
-    int updateByPrimaryKey(Score record);
+    void addScore(@Param("userid") String userid, @Param("ucount") int uscount);
 }

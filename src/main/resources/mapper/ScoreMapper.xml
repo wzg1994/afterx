@@ -1,82 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.jk.dao.ScoreMapper" >
-  <resultMap id="BaseResultMap" type="com.jk.pojo.Score" >
-    <id column="scoreid" property="scoreid" jdbcType="INTEGER" />
-    <result column="scorecount" property="scorecount" jdbcType="INTEGER" />
-    <result column="scoreleft" property="scoreleft" jdbcType="INTEGER" />
-    <result column="userid" property="userid" jdbcType="INTEGER" />
-  </resultMap>
-  <sql id="Base_Column_List" >
-    scoreid, scorecount, scoreleft, userid
-  </sql>
-  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
-    select 
-    <include refid="Base_Column_List" />
-    from score
-    where scoreid = #{scoreid,jdbcType=INTEGER}
+  <select id="queryScoreCount" resultType="long">
+      SELECT count(*)
+      from user u,userinfo ui,score s
+      where u.userinfo = ui.userinfoid
+      AND u.userid =s.userid
+      AND ui.userscore = s.scoreid
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
-    delete from score
-    where scoreid = #{scoreid,jdbcType=INTEGER}
-  </delete>
-  <insert id="insert" parameterType="com.jk.pojo.Score" >
-    insert into score (scoreid, scorecount, scoreleft, 
-      userid)
-    values (#{scoreid,jdbcType=INTEGER}, #{scorecount,jdbcType=INTEGER}, #{scoreleft,jdbcType=INTEGER}, 
-      #{userid,jdbcType=INTEGER})
-  </insert>
-  <insert id="insertSelective" parameterType="com.jk.pojo.Score" >
-    insert into score
-    <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="scoreid != null" >
-        scoreid,
-      </if>
-      <if test="scorecount != null" >
-        scorecount,
-      </if>
-      <if test="scoreleft != null" >
-        scoreleft,
-      </if>
-      <if test="userid != null" >
-        userid,
-      </if>
-    </trim>
-    <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="scoreid != null" >
-        #{scoreid,jdbcType=INTEGER},
-      </if>
-      <if test="scorecount != null" >
-        #{scorecount,jdbcType=INTEGER},
-      </if>
-      <if test="scoreleft != null" >
-        #{scoreleft,jdbcType=INTEGER},
-      </if>
-      <if test="userid != null" >
-        #{userid,jdbcType=INTEGER},
-      </if>
-    </trim>
-  </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Score" >
-    update score
-    <set >
-      <if test="scorecount != null" >
-        scorecount = #{scorecount,jdbcType=INTEGER},
-      </if>
-      <if test="scoreleft != null" >
-        scoreleft = #{scoreleft,jdbcType=INTEGER},
-      </if>
-      <if test="userid != null" >
-        userid = #{userid,jdbcType=INTEGER},
-      </if>
-    </set>
-    where scoreid = #{scoreid,jdbcType=INTEGER}
-  </update>
-  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Score" >
-    update score
-    set scorecount = #{scorecount,jdbcType=INTEGER},
-      scoreleft = #{scoreleft,jdbcType=INTEGER},
-      userid = #{userid,jdbcType=INTEGER}
-    where scoreid = #{scoreid,jdbcType=INTEGER}
+  <select id="queryScorePage" resultType="com.jk.pojo.User">
+      SELECT u.userid,u.username,s.scorecount userscore
+      from user u,userinfo ui,score s
+      where u.userinfo = ui.userinfoid
+      AND u.userid =s.userid
+      AND ui.userscore = s.scoreid
+  </select>
+  <update id="addScore">
+    UPDATE score s SET s.scorecount = s.scorecount + #{ucount} WHERE s.userid = #{userid}
   </update>
 </mapper>
