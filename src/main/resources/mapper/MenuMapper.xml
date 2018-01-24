@@ -4,4 +4,10 @@
 <select id="seltreebypid" resultType="com.jk.pojo.Menu" parameterType="Integer">
   SELECT id,pid,text,url href,open,status FROM aftermenu WHERE pid =#{pid}
 </select>
+  <select id="selmenucount" resultType="long">
+    SELECT count(*) FROM menu
+  </select>
+  <select id="selmenulist" resultType="com.jk.pojo.Menu">
+    SELECT * FROM menu limit #{start},#{rows}
+  </select>
 </mapper>
