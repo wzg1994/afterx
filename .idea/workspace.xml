@@ -2,41 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aaca879-b591-4c81-9bcc-7c85659ca605" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/JokeController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TouSusController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/HuiFuMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/HuiFu.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Users.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/JokeServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/TouSusServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/JokeService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/TouSusService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/HuiFuMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/AddHuaTis.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/HuiFu.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/quecoment.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/quejoke.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/selectimgs.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toaddht.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toaddjoke.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toaddtpz.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toht.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toimg.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toimgs.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/tojoke.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/PingLuns.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/TouSus.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Xiangqings.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/YinPings.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/My97DatePicker.htm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/WdatePicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/calendar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/lang/en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/lang/zh-cn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/lang/zh-tw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/skin/WdatePicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/skin/datePicker.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/skin/default/datepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/skin/default/img.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/skin/whyGreen/bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/skin/whyGreen/datepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/js/My97DatePicker/skin/whyGreen/img.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180123183816.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180123190447.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180123190456.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180124162139.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180124162142.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180124200016.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180124203126.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180124203838.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180124204529.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180124205044.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180125104315.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180125185931.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180125202450.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/uploadify/代码实现.txt" />
       <change beforePath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/pom.xml" afterPath="$PROJECT_DIR$/../afterx/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/Application.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/Application.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TreeController.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TreeController.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/JoketopicMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/JoketopicMapper.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/MoneyinfoMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/MoneyinfoMapper.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ScoreMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ScoreMapper.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/SuggestMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/SuggestMapper.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/UserMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/UserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoiceMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoiceMapper.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoicetopicMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoicetopicMapper.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jobinfo.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jobinfo.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jokecomment.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jokecomment.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jokelike.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jokelike.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Joketopic.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Joketopic.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Locations.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Locations.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Photo.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Photo.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Score.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Score.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Suggest.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Suggest.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Userinfo.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Userinfo.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Voicetopic.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Voicetopic.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Zhubo.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Zhubo.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/JoketopicMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/JoketopicMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/MoneyinfoMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/MoneyinfoMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/ScoreMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/ScoreMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/SuggestMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/SuggestMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/VoiceMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/VoiceMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/VoicetopicMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/VoicetopicMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/uploadify/Change Log.txt" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/uploadify/Change Log.txt" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/uploadify/index.php" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/uploadify/index.php" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toimg.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="toimg.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toimg.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="352">
+              <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -101,16 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pictopic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Pictopic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -182,11 +190,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdvertisingController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArticleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/ArticleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdvertisingController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/AdvertisingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+            <state relative-caret-position="264">
+              <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -379,15 +397,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jk" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="afterx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jk" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -577,7 +586,7 @@
       <workItem from="1517191665904" duration="3158000" />
       <workItem from="1517194925018" duration="3547000" />
       <workItem from="1517223362147" duration="452000" />
-      <workItem from="1517223872946" duration="3844000" />
+      <workItem from="1517223872946" duration="4935000" />
     </task>
     <task id="LOCAL-00001" summary="VC">
       <created>1516278006340</created>
@@ -656,11 +665,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517197557357</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="4">
+      <created>1517228640134</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1517228640135</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80593000" />
+    <option name="totallyTimeSpent" value="81684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -744,7 +760,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="VC" />
     <MESSAGE value="三" />
-    <option name="LAST_COMMIT_MESSAGE" value="三" />
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -951,14 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1128,14 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/AdvertisingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/JokeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1154,8 +1155,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toimg.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="352">
+          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/AdvertisingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding />
         </state>
       </provider>

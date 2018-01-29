@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.HuiFuMapper" >
+
+  <sql id="Base_Column_List" >
+    hid, huserid, hneiyong
+  </sql>
+
+  <insert id="insertAdds" parameterType="com.jk.pojo.HuiFu" >
+    insert into huifu (huserid, hneiyong
+    )
+    values (#{huserid,jdbcType=INTEGER}, #{hneiyong,jdbcType=VARCHAR}
+    )
+  </insert>
+  <delete id="deleteHuiFu" parameterType="com.jk.pojo.HuiFu" >
+    delete from huifu
+    where huserid = #{sss,jdbcType=INTEGER}
+  </delete>
+
+<!--  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from huifu
+    where hid = #{hid,jdbcType=INTEGER}
+  </select>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.HuiFu" >
+    update huifu
+    set huserid = #{huserid,jdbcType=INTEGER},
+      hneiyong = #{hneiyong,jdbcType=VARCHAR}
+    where hid = #{hid,jdbcType=INTEGER}
+  </update>-->
+</mapper>
