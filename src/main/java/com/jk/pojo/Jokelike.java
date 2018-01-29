@@ -7,7 +7,15 @@ public class Jokelike {
 
     private Integer jokecaozuo;
 
-    private Integer count;
+    public Integer getCounts() {
+        return counts;
+    }
+
+    public void setCounts(Integer counts) {
+        this.counts = counts;
+    }
+
+    private Integer counts;
 
     public Integer getJokelikeid() {
         return jokelikeid;
@@ -33,11 +41,5 @@ public class Jokelike {
         this.jokecaozuo = jokecaozuo;
     }
 
-    public Integer getCount() {
-        return count;
-    }
 
-    public void setCount(Integer count) {
-        this.count = count;
-    }
 }

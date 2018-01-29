@@ -12,6 +12,34 @@
   <sql id="Base_Column_List" >
     pictopicid, groupid, typeid, content, likecount, picyn
   </sql>
+
+  <select id="querytotoPictopictotal" resultType="long">
+    SELECT COUNT(*) FROM pictopic a,Picgroup b,Menu c where a.groupid=b.picgroupid and a.typeid=c.id ORDER BY a.likecount desc
+  </select>
+
+<select id="querytotoPictopiclist" resultType="com.jk.pojo.Pictopic">
+SELECT a.*,b.*,c.* FROM
+pictopic a,Picgroup b,Menu c where a.groupid=b.picgroupid and a.typeid=c.id ORDER BY a.likecount desc
+ limit #{st},#{rows}
+</select>
+<delete id="todeletetotoPictopic1">
+  delete from pictopic
+    where pictopicid = #{pictopicid}
+</delete>
+  <delete id="todeletetotoPictopic2">
+    delete from pictopic
+    where pictopicid = #{s}
+  </delete>
+
+
+
+
+
+
+
+
+
+
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />

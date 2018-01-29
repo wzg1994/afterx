@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.AdvertisingMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Advertising" >
+    <id column="advertisingid" property="advertisingid" jdbcType="INTEGER" />
+    <result column="advertisingtitle" property="advertisingtitle" jdbcType="VARCHAR" />
+    <result column="advertisingcontent" property="advertisingcontent" jdbcType="VARCHAR" />
+    <result column="advertisingimg" property="advertisingimg" jdbcType="VARCHAR" />
+    <result column="advertisingcyn" property="advertisingcyn" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    advertisingid, advertisingtitle, advertisingcontent, advertisingimg, advertisingcyn
+  </sql>
+
+  <select id="queryAdvertisingtotal" resultType="long">
+    select COUNT(*) from Advertising ;
+  </select>
+  <select id="queryAdvertisinglist" resultType="com.jk.pojo.Advertising">
+    select * from Advertising limit #{st},#{rows};
+  </select>
+<delete id="todeleteAdvertising1">
+ delete from advertising
+    where advertisingid = #{advertisingid}
+</delete>
+  <delete id="todeleteAdvertising2">
+    delete from advertising
+    where advertisingid = #{s}
+  </delete>
+<insert id="addAdvertising" parameterType="com.jk.pojo.Advertising">
+ insert into advertising (advertisingtitle, advertisingcontent, advertisingimg, advertisingcyn)
+    values (#{advertisingtitle,jdbcType=VARCHAR}, #{advertisingcontent,jdbcType=VARCHAR}, #{advertisingimg,jdbcType=VARCHAR}, #{advertisingcyn,jdbcType=INTEGER})
+</insert>
+
+<select id="toupdateAdvertising" resultMap="BaseResultMap">
+SELECT * from advertising where advertisingid=#{advertisingid}
+</select>
+
+<update id="updateAdvertising">
+  update advertising
+    set advertisingtitle = #{advertisingtitle,jdbcType=VARCHAR},
+      advertisingcontent = #{advertisingcontent,jdbcType=VARCHAR},
+      advertisingimg = #{advertisingimg,jdbcType=VARCHAR},
+      advertisingcyn = #{advertisingcyn,jdbcType=INTEGER}
+    where advertisingid = #{advertisingid,jdbcType=INTEGER}
+</update>
+
+<update id="updatetoxiajia">
+update advertising
+    set advertisingcyn = 3
+    where advertisingid = #{advertisingid,jdbcType=INTEGER}
+</update>
+
+<update id="updatetofabu">
+  update advertising
+    set advertisingcyn = 1
+    where advertisingid = #{advertisingid,jdbcType=INTEGER}
+</update>
+
+
+
+
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from advertising
+    where advertisingid = #{advertisingid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from advertising
+    where advertisingid = #{advertisingid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jk.pojo.Advertising" >
+    insert into advertising (advertisingid, advertisingtitle, 
+      advertisingcontent, advertisingimg, advertisingcyn
+      )
+    values (#{advertisingid,jdbcType=INTEGER}, #{advertisingtitle,jdbcType=VARCHAR}, 
+      #{advertisingcontent,jdbcType=VARCHAR}, #{advertisingimg,jdbcType=VARCHAR}, #{advertisingcyn,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.jk.pojo.Advertising" >
+    insert into advertising
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="advertisingid != null" >
+        advertisingid,
+      </if>
+      <if test="advertisingtitle != null" >
+        advertisingtitle,
+      </if>
+      <if test="advertisingcontent != null" >
+        advertisingcontent,
+      </if>
+      <if test="advertisingimg != null" >
+        advertisingimg,
+      </if>
+      <if test="advertisingcyn != null" >
+        advertisingcyn,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="advertisingid != null" >
+        #{advertisingid,jdbcType=INTEGER},
+      </if>
+      <if test="advertisingtitle != null" >
+        #{advertisingtitle,jdbcType=VARCHAR},
+      </if>
+      <if test="advertisingcontent != null" >
+        #{advertisingcontent,jdbcType=VARCHAR},
+      </if>
+      <if test="advertisingimg != null" >
+        #{advertisingimg,jdbcType=VARCHAR},
+      </if>
+      <if test="advertisingcyn != null" >
+        #{advertisingcyn,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Advertising" >
+    update advertising
+    <set >
+      <if test="advertisingtitle != null" >
+        advertisingtitle = #{advertisingtitle,jdbcType=VARCHAR},
+      </if>
+      <if test="advertisingcontent != null" >
+        advertisingcontent = #{advertisingcontent,jdbcType=VARCHAR},
+      </if>
+      <if test="advertisingimg != null" >
+        advertisingimg = #{advertisingimg,jdbcType=VARCHAR},
+      </if>
+      <if test="advertisingcyn != null" >
+        advertisingcyn = #{advertisingcyn,jdbcType=INTEGER},
+      </if>
+    </set>
+    where advertisingid = #{advertisingid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Advertising" >
+    update advertising
+    set advertisingtitle = #{advertisingtitle,jdbcType=VARCHAR},
+      advertisingcontent = #{advertisingcontent,jdbcType=VARCHAR},
+      advertisingimg = #{advertisingimg,jdbcType=VARCHAR},
+      advertisingcyn = #{advertisingcyn,jdbcType=INTEGER}
+    where advertisingid = #{advertisingid,jdbcType=INTEGER}
+  </update>
+</mapper>

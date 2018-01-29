@@ -29,6 +29,7 @@
     <link href="js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" rel="stylesheet">
     <!-- bootstrap-dialog css -->
     <link href="js/bootstrap-dialog/dist/css/bootstrap-dialog.css" rel="stylesheet">
+    <link rel="stylesheet" href="/uploadify/uploadify.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -469,6 +470,9 @@
 
 <!-- bootstrap-dialog -->
 <script src="js/bootstrap-dialog/dist/js/bootstrap-dialog.js"></script>
+<!--       时间      -->
+<script type="text/javascript" src="/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="/uploadify/jquery.uploadify.js"></script>
 <script>
     //获取数据
     function getTreeData(){

@@ -1,14 +1,26 @@
 package com.jk.pojo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 
 public class Jokecomment {
     private Integer id;
 
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    private String username;
+
     private Integer userid;
 
     private String content;
-
+    @JsonFormat(timezone = "GMT+8", pattern = "yyyy:MM:dd")
     private Date time;
 
     private Integer status;

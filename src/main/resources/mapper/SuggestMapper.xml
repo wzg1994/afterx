@@ -1,82 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.jk.dao.SuggestMapper" >
-  <resultMap id="BaseResultMap" type="com.jk.pojo.Suggest" >
-    <id column="suggestid" property="suggestid" jdbcType="INTEGER" />
-    <result column="userid" property="userid" jdbcType="INTEGER" />
-    <result column="suggestmsg" property="suggestmsg" jdbcType="VARCHAR" />
-    <result column="time" property="time" jdbcType="DATE" />
-  </resultMap>
+
   <sql id="Base_Column_List" >
-    suggestid, userid, suggestmsg, time
+    suggestid, userides, suggestmsg, time,userid useids,usernickname usernames,hneiyong hneiyongs
   </sql>
-  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
-    select 
-    <include refid="Base_Column_List" />
-    from suggest
-    where suggestid = #{suggestid,jdbcType=INTEGER}
+
+    <sql id="Base_Column_List2" >
+        suggestid, userides, suggestmsg, time,userid useids,usernickname usernames
+    </sql>
+
+ <select id="countid" resultType="long">
+    select count(*) from suggest t,user m,huifu a where t.userides = m.userid and t.userides=a.huserid
+     <if test="usernames!=null and usernames!=''">
+         and m.usernickname like'%'||#{usernames}||'%'
+     </if>
+     <if test="date1 != null and date1 != ''">
+         and t.time > date_format(#{date1},'%Y-%m-%d')
+     </if>
+     <if test="date2 != null and date2 != ''">
+         and t.time &lt; date_format(#{date2},'%Y-%m-%d')
+     </if>
+ </select>
+
+    <select id="countid2" resultType="long">
+        select count(*) from suggest t,user m where t.userides = m.userid
+        <if test="usernames!=null and usernames!=''">
+            and m.usernickname like'%'||#{usernames}||'%'
+        </if>
+        <if test="date1 != null and date1 != ''">
+            and t.time > date_format(#{date1},'%Y-%m-%d')
+        </if>
+        <if test="date2 != null and date2 != ''">
+            and t.time &lt; date_format(#{date2},'%Y-%m-%d')
+        </if>
+    </select>
+
+  <select id="queryStuPage" resultType="com.jk.pojo.Suggest" >
+    select <include refid="Base_Column_List"/> from suggest t,user m,huifu a where t.userides = m.userid and t.userides=a.huserid
+      <if test="c.usernames!=null and c.usernames!=''">
+          and m.usernickname like'%'||#{c.usernames}||'%'
+      </if>
+      <if test="c.date1 != null and c.date1 != ''">
+          and t.time > date_format(#{c.date1},'%Y-%m-%d')
+      </if>
+      <if test="c.date2 != null and c.date2 != ''">
+          and t.time &lt; date_format(#{c.date2},'%Y-%m-%d')
+      </if>
+    limit #{st},#{rows}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
-    delete from suggest
-    where suggestid = #{suggestid,jdbcType=INTEGER}
-  </delete>
+
+    <select id="queryStuPage2" resultType="com.jk.pojo.Suggest" >
+        select <include refid="Base_Column_List2"/> from suggest t,user m where t.userides = m.userid
+        <if test="c.usernames!=null and c.usernames!=''">
+            and m.usernickname like'%'||#{c.usernames}||'%'
+        </if>
+        <if test="c.date1 != null and c.date1 != ''">
+            and t.time > date_format(#{c.date1},'%Y-%m-%d')
+        </if>
+        <if test="c.date2 != null and c.date2 != ''">
+            and t.time &lt; date_format(#{c.date2},'%Y-%m-%d')
+        </if>
+        limit #{st},#{rows}
+    </select>
+
+    <delete id="deleteTouSu" parameterType="com.jk.pojo.Suggest" >
+        delete from suggest
+        where suggestid = #{ss}
+    </delete>
+
+
+<!--
   <insert id="insert" parameterType="com.jk.pojo.Suggest" >
     insert into suggest (suggestid, userid, suggestmsg, 
       time)
     values (#{suggestid,jdbcType=INTEGER}, #{userid,jdbcType=INTEGER}, #{suggestmsg,jdbcType=VARCHAR}, 
       #{time,jdbcType=DATE})
   </insert>
-  <insert id="insertSelective" parameterType="com.jk.pojo.Suggest" >
-    insert into suggest
-    <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="suggestid != null" >
-        suggestid,
-      </if>
-      <if test="userid != null" >
-        userid,
-      </if>
-      <if test="suggestmsg != null" >
-        suggestmsg,
-      </if>
-      <if test="time != null" >
-        time,
-      </if>
-    </trim>
-    <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="suggestid != null" >
-        #{suggestid,jdbcType=INTEGER},
-      </if>
-      <if test="userid != null" >
-        #{userid,jdbcType=INTEGER},
-      </if>
-      <if test="suggestmsg != null" >
-        #{suggestmsg,jdbcType=VARCHAR},
-      </if>
-      <if test="time != null" >
-        #{time,jdbcType=DATE},
-      </if>
-    </trim>
-  </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.jk.pojo.Suggest" >
-    update suggest
-    <set >
-      <if test="userid != null" >
-        userid = #{userid,jdbcType=INTEGER},
-      </if>
-      <if test="suggestmsg != null" >
-        suggestmsg = #{suggestmsg,jdbcType=VARCHAR},
-      </if>
-      <if test="time != null" >
-        time = #{time,jdbcType=DATE},
-      </if>
-    </set>
-    where suggestid = #{suggestid,jdbcType=INTEGER}
-  </update>
+
   <update id="updateByPrimaryKey" parameterType="com.jk.pojo.Suggest" >
     update suggest
     set userid = #{userid,jdbcType=INTEGER},
       suggestmsg = #{suggestmsg,jdbcType=VARCHAR},
       time = #{time,jdbcType=DATE}
     where suggestid = #{suggestid,jdbcType=INTEGER}
-  </update>
+  </update>-->
 </mapper>

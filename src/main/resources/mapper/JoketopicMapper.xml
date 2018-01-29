@@ -11,8 +11,157 @@
     <result column="jokeyn" property="jokeyn" jdbcType="INTEGER" />
   </resultMap>
   <sql id="Base_Column_List" >
-    jokeid, joketitle, joketime, jokecontent, typeid, adminid, jokeyn
+    jokeid, joketitle, joketime, jokecontent, typeid, adminid, jokeyn,text
   </sql>
+
+  <sql id="imgs" >
+    picgroupid, picid, groupname, grouptype, imgid,text,photourl
+  </sql>
+
+  <sql id="ht" >
+    pictopicid, groupid, typeid,text, content, likecount, picyn
+  </sql>
+
+
+<!--查询笑话总条数-->
+  <select id="quejokecount" resultType="long" >
+  select count(*) from joketopic p,menu m where p.typeid=m.id
+  </select>
+<!--查询笑话数据-->
+  <select id="queryjoke" resultType="com.jk.pojo.Joketopic">
+    select
+    <include refid="Base_Column_List" />
+    from joketopic p,menu m where p.typeid=m.id  and m.pid=5 and m.id>=18
+    limit #{start},#{rows}
+  </select>
+
+<!--新增-->
+  <insert id="addjoke" >
+    insert into joketopic (jokeid, joketitle, joketime,
+    jokecontent, typeid,
+    jokeyn)
+    values (#{jokeid,jdbcType=INTEGER}, #{joketitle,jdbcType=VARCHAR}, #{jokedate},
+    #{jokecontent,jdbcType=VARCHAR}, #{typeid,jdbcType=INTEGER},
+    #{jokeyn,jdbcType=INTEGER})
+  </insert>
+<!-- 批量删除-->
+  <delete id="deljoke" parameterType="com.jk.pojo.Joketopic">
+    delete from joketopic
+    where jokeid = #{ss}
+  </delete>
+<!--查询点赞数量以及返回业务数据-->
+  <select id="quejoke" resultType="com.jk.pojo.Jokelike">
+    select  counts,jokeid  from jokelike where jokeid = #{jokeid}
+  </select>
+
+<!--查询该笑话评论总条数-->
+  <select id="quecommcount" resultType="long" >
+    select
+     count(*)
+    from jokecomment where joke=#{joke}
+  </select>
+<!--评论具体数据-->
+  <select id="queryck" resultType="com.jk.pojo.Jokecomment" >
+    select * from jokecomment j,user u where j.userid=u.userid and joke=#{mment.joke} limit #{start},#{rows}
+  </select>
+
+<!--新增图片表-->
+  <insert id="addimg">
+    insert into photo (photoid, photourl, userid,
+    time)
+    values (#{photoid,jdbcType=INTEGER}, #{photourl,jdbcType=VARCHAR}, #{userid,jdbcType=INTEGER},
+    #{tidate})
+  </insert>
+
+<!--图片集合总条数-->
+  <select id="queimgscount" resultType="long" >
+    select
+    count(*)
+    from picgroup u, photo o,menu m where u.imgid=photoid and u.grouptype=m.id
+  </select>
+  <!--图片集合数据-->
+  <select id="queimgs" resultType="com.jk.pojo.Picgroup" >
+    select
+    <include refid="imgs" />
+    from  picgroup u, photo o,menu m where u.imgid=photoid and u.grouptype=m.id limit #{start},#{rows}
+  </select>
+<!--  图片集合-->
+  <select id="selectimgs" resultType="com.jk.pojo.Photo" >
+    select *  from photo where photoid in(${ss})
+  </select>
+
+<!--查询文章-->
+  <select id="quehtscount" resultType="long" >
+    select count(*)  from pictopic pic,picgroup p,menu m where pic.groupid=p.picgroupid and pic.typeid=m.id
+  </select>
+  <select id="queht" resultType="com.jk.pojo.Pictopic" >
+    select
+    *
+    from pictopic pic,picgroup p,menu m where pic.groupid=p.picgroupid and pic.typeid=m.id
+    limit #{start},#{rows}
+  </select>
+
+<!--   查询类型-->
+  <select id="quem" resultType="com.jk.pojo.Menu" >
+    select *  from menu where id>=6 and id &lt;18
+  </select>
+<!--查询图片组-->
+  <select id="quep" resultType="com.jk.pojo.Picgroup" >
+    select *  from picgroup
+  </select>
+
+<!--添加文章-->
+  <insert id="addht" >
+    insert into pictopic (pictopicid, groupid, typeid,
+    content, likecount, picyn
+    )
+    values (#{pictopicid}, #{groupid}, #{typeid},
+    #{content}, #{likecount}, #{picyn}
+    )
+  </insert>
+  <!--设置封面-->
+  <update id="upimg" >
+    update picgroup
+    set imgid = #{imgid}
+    where picgroupid = #{picgroupid}
+  </update>
+
+   <!-- 查询文章评论总条数-->
+  <select id="quecntcount" resultType="long">
+select count(*) from pictopic c,photo o,pictopiccomment m,user u where m.picid=c.pictopicid and m.photoid=o.photoid and u.userid=m.userid and  picid=#{picid}
+  </select>
+<!--查询文章评论表-->
+  <select id="quecnt" resultType="com.jk.pojo.Pictopiccomment" >
+select * from pictopic c,photo o,pictopiccomment m,user u where m.picid=c.pictopicid and m.photoid=o.photoid and u.userid=m.userid and  picid=#{cnt.picid}
+  limit #{start},#{rows}
+  </select>
+
+
+<!--删除文章-->
+  <delete id="delht">
+    delete from pictopic
+    where pictopicid = #{pictopicid}
+  </delete>
+
+  <!--查询图片表-->
+  <select id="queh" resultType="com.jk.pojo.Photo" >
+    select * from photo  where photoid !=12
+  </select>
+
+<!--添加图片组-->
+  <insert id="addtpz" >
+    insert into picgroup (picgroupid, picid, groupname,
+      grouptype, imgid)
+    values (#{picgroupid}, #{picid}, #{groupname},
+      #{grouptype}, #{imgid})
+  </insert>
+<!--删除图片组-->
+  <delete id="delimg" >
+    delete from picgroup
+    where picgroupid = #{picgroupid}
+  </delete>
+
+
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
