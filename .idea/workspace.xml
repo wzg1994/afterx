@@ -2,7 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aaca879-b591-4c81-9bcc-7c85659ca605" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/JokeController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TouSusController.java" />
       <change beforePath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/pom.xml" afterPath="$PROJECT_DIR$/../afterx/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/Application.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/Application.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TreeController.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TreeController.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/JoketopicMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/JoketopicMapper.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/MoneyinfoMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/MoneyinfoMapper.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ScoreMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ScoreMapper.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/SuggestMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/SuggestMapper.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/UserMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/UserMapper.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoiceMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoiceMapper.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoicetopicMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/VoicetopicMapper.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jobinfo.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jobinfo.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jokecomment.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jokecomment.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jokelike.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jokelike.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Joketopic.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Joketopic.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Locations.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Locations.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Photo.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Photo.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Score.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Score.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Suggest.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Suggest.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Userinfo.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Userinfo.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Voicetopic.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Voicetopic.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Zhubo.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Zhubo.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/JoketopicMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/JoketopicMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/MoneyinfoMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/MoneyinfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/ScoreMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/ScoreMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/SuggestMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/SuggestMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/UserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/VoiceMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/VoiceMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/VoicetopicMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/VoicetopicMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/uploadify/Change Log.txt" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/uploadify/Change Log.txt" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/uploadify/index.php" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/uploadify/index.php" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,6 +46,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/afterx$Application.coverage" NAME="Application Coverage Results" MODIFIED="1517227543082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jk.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -27,106 +66,127 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Artcomment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Artcomment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Article.java">
+      <file leaf-file-name="JokeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/JokeController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="143" column="36" lean-forward="false" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Articlescore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Articlescore.java">
+      <file leaf-file-name="toimgs.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toimgs.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="-1650">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toimg.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toimg.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pictopic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Pictopic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JoketopicMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/resources/mapper/JoketopicMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
               <folding>
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
+                <marker date="1517223074000" expanded="true" signature="1134:1193" ph="select count... joketopic" />
+                <marker date="1517223074000" expanded="true" signature="1285:1433" ph="select from joketopic" />
+                <marker date="1517223074000" expanded="true" signature="1486:1755" ph="insert into joketopic... " />
+                <marker date="1517223074000" expanded="true" signature="1847:1893" ph="delete from joketopic... " />
+                <marker date="1517223074000" expanded="true" signature="1990:2051" ph="select count... jokelike" />
+                <marker date="1517223074000" expanded="true" signature="2135:2195" ph="select count... jokecomment" />
+                <marker date="1517223074000" expanded="true" signature="2288:2392" ph="select * fro... jokecomment" />
+                <marker date="1517223074000" expanded="true" signature="2446:2615" ph="insert into photo... " />
+                <marker date="1517223074000" expanded="true" signature="2696:2794" ph="select count... picgroup" />
+                <marker date="1517223074000" expanded="true" signature="2886:3024" ph="select from picgroup" />
+                <marker date="1517223074000" expanded="true" signature="3114:3158" ph="select * fro... photo" />
+                <marker date="1517223074000" expanded="true" signature="3235:3338" ph="select count... pictopic" />
+                <marker date="1517223074000" expanded="true" signature="3412:3542" ph="select * fro... pictopic" />
+                <marker date="1517223074000" expanded="true" signature="3627:3672" ph="select * fro... menu" />
+                <marker date="1517223074000" expanded="true" signature="3758:3781" ph="select * fro... picgroup" />
+                <marker date="1517223074000" expanded="true" signature="3834:4015" ph="insert into pictopic... " />
+                <marker date="1517223074000" expanded="true" signature="4069:4146" ph="update picgroup... " />
+                <marker date="1517223074000" expanded="true" signature="4227:4384" ph="select count... pictopic" />
+                <marker date="1517223074000" expanded="true" signature="4477:4656" ph="select * fro... pictopic" />
+                <marker date="1517223074000" expanded="true" signature="4709:4766" ph="delete from pictopic... " />
+                <marker date="1517223074000" expanded="true" signature="4852:4891" ph="select * fro... photo" />
+                <marker date="1517223074000" expanded="true" signature="4946:5102" ph="insert into picgroup... " />
+                <marker date="1517223074000" expanded="true" signature="5156:5213" ph="delete from picgroup... " />
+                <marker date="1517223074000" expanded="true" signature="5328:5441" ph="select from joketopic" />
+                <marker date="1517223074000" expanded="true" signature="5528:5595" ph="delete from joketopic... " />
+                <marker date="1517223074000" expanded="true" signature="5674:6007" ph="insert into joketopic... " />
+                <marker date="1517223074000" expanded="true" signature="7404:8064" ph="update joketopic... " />
+                <marker date="1517223074000" expanded="true" signature="8155:8495" ph="update joketopic... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toaddAdvertising.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/toarticle/toaddAdvertising.jsp">
+      <file leaf-file-name="toht.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toht.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding>
-                <marker date="1516522462000" expanded="true" signature="1990:2069" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="132">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdvertisingService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/AdvertisingService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-              <folding />
-            </state>
+      <file leaf-file-name="20180121171011.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180121171011.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TopicController.java">
+      <file leaf-file-name="AdvertisingController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/AdvertisingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/ArticleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/CheckService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="154">
+              <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -168,13 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jk/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jk/controller/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jk/controller/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jk/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jk/controller/Example.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jk/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jk/controller/TreeController.java" />
@@ -219,6 +272,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jk/service/Impl/MenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu/toselmenu.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jk/service/MoneyService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/AdvertisingController.java" />
+        <option value="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/JoketopicMapper.java" />
+        <option value="$PROJECT_DIR$/../afterx/pom.xml" />
+        <option value="$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/JokeController.java" />
+        <option value="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toimg.jsp" />
       </list>
     </option>
   </component>
@@ -231,7 +291,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/..//////////////////////apache-maven-3.5.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/..////////////////////////apache-maven-3.5.2" />
         <option name="userSettingsFile" value="D:\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -282,9 +342,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,7 +392,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,11 +415,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\afterx\src\main\java\com\jk\pojo" />
-      <recent name="D:\afterx\src\main\java\com\jk\dao" />
-      <recent name="D:\afterx\src\main\resources\mapper" />
-      <recent name="D:\afterx\src\main\webapp\js" />
+      <recent name="D:\afterx\src\main\webapp\WEB-INF" />
+      <recent name="D:\afterx\src\main\webapp\upload" />
       <recent name="D:\afterx\src\main\webapp" />
+      <recent name="D:\afterx\src\main\resources\mapper" />
+      <recent name="D:\afterx\src\main\java\com\jk\pojo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -515,7 +575,9 @@
       <workItem from="1516779455903" duration="1725000" />
       <workItem from="1516792639614" duration="2928000" />
       <workItem from="1517191665904" duration="3158000" />
-      <workItem from="1517194925018" duration="2245000" />
+      <workItem from="1517194925018" duration="3547000" />
+      <workItem from="1517223362147" duration="452000" />
+      <workItem from="1517223872946" duration="3844000" />
     </task>
     <task id="LOCAL-00001" summary="VC">
       <created>1516278006340</created>
@@ -587,15 +649,21 @@
       <option name="project" value="LOCAL" />
       <updated>1517197312162</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="三">
+      <created>1517197557357</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1517197557357</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74995000" />
+    <option name="totallyTimeSpent" value="80593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -613,11 +681,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104575165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27450982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761438" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3207262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33131617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -684,163 +753,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../repository2/org/mybatis/mybatis/3.4.0/mybatis-3.4.0.jar!/org/apache/ibatis/binding/MapperMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/resources/mapper/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/Example.java" />
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-treeview/dist/bootstrap-treeview.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/js/bootstrap-treeview/dist/bootstrap-treeview.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/afterx.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/toselmenu.jsp" />
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/toselmenu.jsp" />
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/aa.jsp" />
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/menu/aa.jsp" />
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/js/bootStrap-addTabs/bootstrap.addtabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/MenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/resources/mapper/MenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository2/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="135" column="15" lean-forward="false" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/resources/mapper/ArtcommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TreeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository2/org/mybatis/mybatis/3.4.0/mybatis-3.4.0.jar!/org/apache/ibatis/binding/MapperProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/menu/toselmenu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ArtcommentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ArticlescoreMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/EmployeeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -887,23 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/CheckController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,15 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,7 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,10 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,9 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <marker date="1516522462000" expanded="true" signature="1990:2069" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,10 +881,281 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/MoneyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/ScoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/CheckController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/TopicController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/PictopicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/MoneyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/JokeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/JokeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/JoketopicMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Jokecomment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Photo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Picgroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Pictopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/resources/mapper/JoketopicMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <marker date="1517223074000" expanded="true" signature="1134:1193" ph="select count... joketopic" />
+            <marker date="1517223074000" expanded="true" signature="1285:1433" ph="select from joketopic" />
+            <marker date="1517223074000" expanded="true" signature="1486:1755" ph="insert into joketopic... " />
+            <marker date="1517223074000" expanded="true" signature="1847:1893" ph="delete from joketopic... " />
+            <marker date="1517223074000" expanded="true" signature="1990:2051" ph="select count... jokelike" />
+            <marker date="1517223074000" expanded="true" signature="2135:2195" ph="select count... jokecomment" />
+            <marker date="1517223074000" expanded="true" signature="2288:2392" ph="select * fro... jokecomment" />
+            <marker date="1517223074000" expanded="true" signature="2446:2615" ph="insert into photo... " />
+            <marker date="1517223074000" expanded="true" signature="2696:2794" ph="select count... picgroup" />
+            <marker date="1517223074000" expanded="true" signature="2886:3024" ph="select from picgroup" />
+            <marker date="1517223074000" expanded="true" signature="3114:3158" ph="select * fro... photo" />
+            <marker date="1517223074000" expanded="true" signature="3235:3338" ph="select count... pictopic" />
+            <marker date="1517223074000" expanded="true" signature="3412:3542" ph="select * fro... pictopic" />
+            <marker date="1517223074000" expanded="true" signature="3627:3672" ph="select * fro... menu" />
+            <marker date="1517223074000" expanded="true" signature="3758:3781" ph="select * fro... picgroup" />
+            <marker date="1517223074000" expanded="true" signature="3834:4015" ph="insert into pictopic... " />
+            <marker date="1517223074000" expanded="true" signature="4069:4146" ph="update picgroup... " />
+            <marker date="1517223074000" expanded="true" signature="4227:4384" ph="select count... pictopic" />
+            <marker date="1517223074000" expanded="true" signature="4477:4656" ph="select * fro... pictopic" />
+            <marker date="1517223074000" expanded="true" signature="4709:4766" ph="delete from pictopic... " />
+            <marker date="1517223074000" expanded="true" signature="4852:4891" ph="select * fro... photo" />
+            <marker date="1517223074000" expanded="true" signature="4946:5102" ph="insert into picgroup... " />
+            <marker date="1517223074000" expanded="true" signature="5156:5213" ph="delete from picgroup... " />
+            <marker date="1517223074000" expanded="true" signature="5328:5441" ph="select from joketopic" />
+            <marker date="1517223074000" expanded="true" signature="5528:5595" ph="delete from joketopic... " />
+            <marker date="1517223074000" expanded="true" signature="5674:6007" ph="insert into joketopic... " />
+            <marker date="1517223074000" expanded="true" signature="7404:8064" ph="update joketopic... " />
+            <marker date="1517223074000" expanded="true" signature="8155:8495" ph="update joketopic... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180121173423.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180121171011.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180121171109.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/upload/20180129111720.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toht.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/AdvertisingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/JokeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="143" column="36" lean-forward="false" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toimgs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/Joke/toimg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding />
         </state>
       </provider>

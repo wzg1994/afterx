@@ -1,15 +1,36 @@
 package com.jk.pojo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 
 public class Photo {
     private Integer photoid;
 
+    public Integer getPicgroupid() {
+        return picgroupid;
+    }
+
+    public void setPicgroupid(Integer picgroupid) {
+        this.picgroupid = picgroupid;
+    }
+
+    private Integer picgroupid;
+
     private String photourl;
 
     private Integer userid;
-
+    @JsonFormat(timezone = "GMT+8", pattern = "yyyy:MM:dd")
     private Date time;
+    private String tidate;
+
+    public String getTidate() {
+        return tidate;
+    }
+
+    public void setTidate(String tidate) {
+        this.tidate = tidate;
+    }
 
     public Integer getPhotoid() {
         return photoid;

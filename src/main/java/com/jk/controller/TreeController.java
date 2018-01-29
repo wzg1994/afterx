@@ -20,4 +20,6 @@ public class TreeController {
         List<Menu> list=treeService.menuTree(0);
         return list;
     }
+
+  
 }

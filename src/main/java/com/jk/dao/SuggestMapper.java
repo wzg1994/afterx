@@ -1,17 +1,21 @@
 package com.jk.dao;
 
 import com.jk.pojo.Suggest;
+import com.jk.pojo.Voice;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface SuggestMapper {
-    int deleteByPrimaryKey(Integer suggestid);
+    
+    Long countid(Suggest c);
 
-    int insert(Suggest record);
+    List<Suggest> queryStuPage(@Param("c")Suggest c, @Param("st") int st, @Param("rows") int rows);
 
-    int insertSelective(Suggest record);
+    int deleteTouSu(String ss);
 
-    Suggest selectByPrimaryKey(Integer suggestid);
+    Long countid2(Suggest c);
 
-    int updateByPrimaryKeySelective(Suggest record);
+    List<Suggest> queryStuPage2(@Param("c")Suggest c, @Param("st") int st, @Param("rows") int rows);
 
-    int updateByPrimaryKey(Suggest record);
 }

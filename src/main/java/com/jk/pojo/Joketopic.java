@@ -1,5 +1,8 @@
 package com.jk.pojo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 public class Joketopic {
@@ -7,11 +10,32 @@ public class Joketopic {
 
     private String joketitle;
 
+    public void setJokedate(String jokedate) {
+        this.jokedate = jokedate;
+    }
+    @JsonFormat(timezone = "GMT+8", pattern = "yyyy:MM:dd")
     private Date joketime;
+
+    public String getJokedate() {
+        return jokedate;
+    }
+
+    private  String jokedate;
 
     private String jokecontent;
 
     private Integer typeid;
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    private String  text;
+
 
     private Integer adminid;
 
@@ -72,4 +96,5 @@ public class Joketopic {
     public void setJokeyn(Integer jokeyn) {
         this.jokeyn = jokeyn;
     }
+
 }
