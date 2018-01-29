@@ -9,10 +9,44 @@
     <result column="time" property="time" jdbcType="DATE" />
     <result column="topicid" property="topicid" jdbcType="INTEGER" />
     <result column="articleimg" property="articleimg" jdbcType="VARCHAR" />
+    <result column="artyn" property="artyn" jdbcType="INTEGER" />
   </resultMap>
   <sql id="Base_Column_List" >
     articleid, articletitle, userid, articlecontent, time, topicid, articleimg
   </sql>
+
+  <select id="querytoarticletotal" resultType="long">
+  SELECT COUNT(*) FROM article a,user u,topic t where a.userid=u.userid and a.topicid=t.topicid
+  </select>
+
+<select id="querytoarticlelist" resultType="com.jk.pojo.Article">
+SELECT a.*,u.*,t.*
+FROM article a,user u,topic t where a.userid=u.userid and a.topicid=t.topicid limit #{st},#{rows}
+</select>
+
+  <delete id="todeletetoarticle1" parameterType="java.lang.Integer">
+ delete from article where articleid = #{articleid,jdbcType=INTEGER}
+  </delete>
+
+  <delete id="todeletetoarticle2">
+    delete from article where articleid = #{s}
+  </delete>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
@@ -26,10 +60,10 @@
   <insert id="insert" parameterType="com.jk.pojo.Article" >
     insert into article (articleid, articletitle, userid, 
       articlecontent, time, topicid, 
-      articleimg)
+      articleimg, artyn)
     values (#{articleid,jdbcType=INTEGER}, #{articletitle,jdbcType=VARCHAR}, #{userid,jdbcType=INTEGER}, 
       #{articlecontent,jdbcType=VARCHAR}, #{time,jdbcType=DATE}, #{topicid,jdbcType=INTEGER}, 
-      #{articleimg,jdbcType=VARCHAR})
+      #{articleimg,jdbcType=VARCHAR}, #{artyn,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="com.jk.pojo.Article" >
     insert into article
@@ -55,6 +89,9 @@
       <if test="articleimg != null" >
         articleimg,
       </if>
+      <if test="artyn != null" >
+        artyn,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="articleid != null" >
@@ -77,6 +114,9 @@
       </if>
       <if test="articleimg != null" >
         #{articleimg,jdbcType=VARCHAR},
+      </if>
+      <if test="artyn != null" >
+        #{artyn,jdbcType=INTEGER},
       </if>
     </trim>
   </insert>
@@ -101,6 +141,9 @@
       <if test="articleimg != null" >
         articleimg = #{articleimg,jdbcType=VARCHAR},
       </if>
+      <if test="artyn != null" >
+        artyn = #{artyn,jdbcType=INTEGER},
+      </if>
     </set>
     where articleid = #{articleid,jdbcType=INTEGER}
   </update>
@@ -111,7 +154,8 @@
       articlecontent = #{articlecontent,jdbcType=VARCHAR},
       time = #{time,jdbcType=DATE},
       topicid = #{topicid,jdbcType=INTEGER},
-      articleimg = #{articleimg,jdbcType=VARCHAR}
+      articleimg = #{articleimg,jdbcType=VARCHAR},
+      artyn = #{artyn,jdbcType=INTEGER}
     where articleid = #{articleid,jdbcType=INTEGER}
   </update>
 </mapper>

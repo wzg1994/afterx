@@ -3,15 +3,35 @@ package com.jk.pojo;
 public class Pictopic {
     private Integer pictopicid;
 
-    private Integer groupid;
+    private Integer groupid;//图片分组id picgroup图片组表
 
-    private Integer typeid;
+    private Integer typeid;//类型id menu菜单表
 
     private String content;
 
-    private Integer likecount;
+    private Integer likecount;//喜欢人数
 
-    private Integer picyn;
+    private Integer picyn;//状态
+
+    private String groupname;
+
+    private String text;
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public String getGroupname() {
+        return groupname;
+    }
+
+    public void setGroupname(String groupname) {
+        this.groupname = groupname;
+    }
 
     public Integer getPictopicid() {
         return pictopicid;

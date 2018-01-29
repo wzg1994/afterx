@@ -9,13 +9,18 @@ public class Article {
 
     private Integer userid;
 
-    private String articlecontent;
+    private String articlecontent;//内容
 
     private Date time;
 
-    private Integer topicid;
+    private Integer topicid;//文章话题id
 
     private String articleimg;
+
+    //业务字段
+    private String usernickname;
+
+    private String topictitle;
 
     public Integer getArticleid() {
         return articleid;
@@ -71,5 +76,21 @@ public class Article {
 
     public void setArticleimg(String articleimg) {
         this.articleimg = articleimg == null ? null : articleimg.trim();
+    }
+
+    public String getUsernickname() {
+        return usernickname;
+    }
+
+    public void setUsernickname(String usernickname) {
+        this.usernickname = usernickname;
+    }
+
+    public String getTopictitle() {
+        return topictitle;
+    }
+
+    public void setTopictitle(String topictitle) {
+        this.topictitle = topictitle;
     }
 }
