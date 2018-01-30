@@ -19,7 +19,7 @@ import java.util.Date;
 @Controller
 @EnableAutoConfiguration
 public class AdvertisingController {
-
+//aaab
     @Autowired
     private AdvertisingService advertisingService;
 
