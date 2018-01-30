@@ -7,6 +7,16 @@ import java.util.Date;
 public class Photo {
     private Integer photoid;
 
+    public String getPicid() {
+        return picid;
+    }
+
+    public void setPicid(String picid) {
+        this.picid = picid;
+    }
+
+    private String picid;
+
     public Integer getPicgroupid() {
         return picgroupid;
     }
