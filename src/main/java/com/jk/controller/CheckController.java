@@ -23,33 +23,33 @@ public class CheckController {
 
     @RequestMapping("queryTop")
     @ResponseBody
-    public Object queryTop(int page,int rows,Topic topic){
-        Map<String, Object> map = checkService.queryTop(page,rows,topic);
+    public Object queryTop(int page,int rows,Topic topic,String jueseid){
+        Map<String, Object> map = checkService.queryTop(page,rows,topic,jueseid);
         return map;
     }
     @RequestMapping("queryPic")
     @ResponseBody
-    public Object queryPic(int page,int rows,Pictopic pictopic){
-        Map<String, Object> map = checkService.queryPic(page,rows,pictopic);
+    public Object queryPic(int page,int rows,Pictopic pictopic ,String jueseid){
+        Map<String, Object> map = checkService.queryPic(page,rows,pictopic,jueseid);
         return map;
     }
 
     @RequestMapping("queryVoip")
     @ResponseBody
-    public Object queryVoip(int page,int rows,Voicetopic voicetopic){
-        Map<String, Object> map = checkService.queryVoip(page,rows,voicetopic);
+    public Object queryVoip(int page,int rows,Voicetopic voicetopic ,String jueseid){
+        Map<String, Object> map = checkService.queryVoip(page,rows,voicetopic ,jueseid);
         return map;
 }
     @RequestMapping("queryJokp")
     @ResponseBody
-    public Object queryJokp(int page,int rows,Joketopic joketopic){
-        Map<String, Object> map = checkService.queryJokp(page,rows,joketopic);
+    public Object queryJokp(int page,int rows,Joketopic joketopic,String jueseid){
+        Map<String, Object> map = checkService.queryJokp(page,rows,joketopic,jueseid);
         return map;
     }
     @RequestMapping("upartYn")
     @ResponseBody
-    public String upartYn(Topic topic){
-        checkService.upartYn(topic);
+    public String upartYn(Topic topic,String jueseid){
+        checkService.upartYn(topic,jueseid);
         return "1";
     }
     @RequestMapping("upartYn2")
@@ -66,8 +66,8 @@ public class CheckController {
     }
     @RequestMapping("uppicYn")
     @ResponseBody
-    public String uppicYn(Pictopic pictopic){
-        checkService.uppicYn(pictopic);
+    public String uppicYn(Pictopic pictopic,String jueseid){
+        checkService.uppicYn(pictopic,jueseid);
         return "1";
     }
     @RequestMapping("uppicYn2")
@@ -84,8 +84,8 @@ public class CheckController {
     }
     @RequestMapping("upvoipYn")
     @ResponseBody
-    public String upvoipYn(Voicetopic voicetopic){
-        checkService.upvoipYn(voicetopic);
+    public String upvoipYn(Voicetopic voicetopic,String jueseid){
+        checkService.upvoipYn(voicetopic,jueseid);
         return "1";
     }
     @RequestMapping("upvoipYn2")
@@ -102,8 +102,8 @@ public class CheckController {
     }
     @RequestMapping("upjokYn")
     @ResponseBody
-    public String upjokYn(Joketopic joketopic){
-        checkService.upjokYn(joketopic);
+    public String upjokYn(Joketopic joketopic,String jueseid){
+        checkService.upjokYn(joketopic,jueseid);
         return "1";
     }
     @RequestMapping("upjokYn2")

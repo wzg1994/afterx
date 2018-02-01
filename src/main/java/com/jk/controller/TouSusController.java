@@ -28,6 +28,19 @@ public class TouSusController {
         return "TouSus";
     }
 
+    @RequestMapping("ZhiPais")
+    public String ZhiPais(HttpServletRequest a){
+        List<Employee>list=touSusService.ZhiPais();
+        a.setAttribute("ss",list);
+        return "ZhiPais";
+    }
+
+    @RequestMapping("CheZhis")
+    public String CheZhis(HttpServletRequest a){
+        List<Employee>list=touSusService.CheZhis();
+        a.setAttribute("ss2",list);
+        return "CheZhis";
+    }
 
     @RequestMapping("HuiFu")
     public String HuiFu(){
@@ -131,6 +144,20 @@ public class TouSusController {
     @ResponseBody
     public Object addHuatis(Voicetopic c){
        int a=touSusService.addHuatis(c);
+        return a;
+    };
+
+    @RequestMapping("upzhipais")
+    @ResponseBody
+    public Object upzhipais(Employee c){
+        int a=touSusService.upzhipais(c);
+        return a;
+    };
+
+    @RequestMapping("upCheZhis")
+    @ResponseBody
+    public Object upCheZhis(Employee c){
+        int a=touSusService.upCheZhis(c);
         return a;
     };
 }
