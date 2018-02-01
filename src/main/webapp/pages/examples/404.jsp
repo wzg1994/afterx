@@ -22,7 +22,7 @@
     <body class="skin-blue">
         <!-- header logo: style can be found in header.less -->
         <header class="header">
-            <a href="../../index.html" class="logo">
+            <a href="../../login.html" class="logo">
                 <!-- Add the class icon to your logo image or logo icon to add the margining -->
                 AdminLTE
             </a>
@@ -296,7 +296,7 @@
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu">
                         <li>
-                            <a href="../../index.html">
+                            <a href="../../login.html">
                                 <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                             </a>
                         </li>
@@ -407,7 +407,7 @@
                             <h3><i class="fa fa-warning text-yellow"></i> Oops! Page not found.</h3>
                             <p>
                                 We could not find the page you were looking for. 
-                                Meanwhile, you may <a href='../../index.html'>return to dashboard</a> or try using the search form.
+                                Meanwhile, you may <a href='../../login.html'>return to dashboard</a> or try using the search form.
                             </p>
                             <form class='search-form'>
                                 <div class='input-group'>

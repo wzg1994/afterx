@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Login form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+<div id="boxForm">
+  <h2 id="title">My Login Form</h2>
+  <form>
+    <input class='text' type='text' name='employeename' placeholder='Email' required id="username">
+    <br>
+    <input class='text' id='pass'  type='password' placeholder='Password' required name="employeepass">
+    <br>
+    <input class='button' type='button' value='Connection' onclick="loginCheck()">
+  </form>
+</div>
+
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script>
+      function loginCheck(){
+          $.ajax({
+              url:"loginUser",
+              type:"post",
+              data:{"employeename":$("#username").val(),"employeepass":$("#pass").val()},
+              Typedata:"text",
+              success:function(a){
+                  if (a=="MiNo") {
+                      alert("密码错误!");
+                  }else if (a=="Yes") {
+                      location.href="index.jsp";
+                  }else if (a=="NO") {
+                      alert("用户名不存在或者错误!");
+                  }
+              },
+          });
+      };
+  </script>
+
+</body>
+
+</html>
