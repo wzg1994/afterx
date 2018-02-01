@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aaca879-b591-4c81-9bcc-7c85659ca605" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/.idea/artifacts/afterx_war_exploded.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/artifacts/afterx_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/CheckMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/CheckMapper.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/GiftMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/GiftMapper.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/HuiFuMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/HuiFuMapper.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Employee.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Photo.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Photo.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Picgroup.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Picgroup.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/CheckService.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/CheckService.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/CheckServiceImpl.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/CheckServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/TouSusServiceImpl.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/TouSusServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/UserssServiceImpl.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/UserssServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/TouSusService.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/TouSusService.java" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/CheckMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/CheckMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/HuiFuMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/HuiFuMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/YinPings.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/YinPings.jsp" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkjokepic.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkjokepic.jsp" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkpictop.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkpictop.jsp" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checktopic.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checktopic.jsp" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkvoipic.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkvoipic.jsp" />
-      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/../afterx/afterx.iml" afterPath="$PROJECT_DIR$/../afterx/afterx.iml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/pom.xml" afterPath="$PROJECT_DIR$/../afterx/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,11 +37,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GiftMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../afterx/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GiftMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/GiftMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="empty.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/empty.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -72,57 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GiftMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/resources/mapper/GiftMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1517468734000" expanded="true" signature="686:713" ph="select count... gift" />
-                <marker date="1517468734000" expanded="true" signature="790:828" ph="select * fro... gift" />
-                <marker date="1517468734000" expanded="true" signature="900:945" ph="SELECT * FRO... gift" />
-                <marker date="1517468734000" expanded="true" signature="989:1130" ph="UPDATE gift... " />
-                <marker date="1517468734000" expanded="true" signature="1171:1284" ph="INSERT INTO gift... " />
-                <marker date="1517468734000" expanded="true" signature="1334:1376" ph="DELETE FROM gift" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gift.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Gift.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GiftService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/GiftService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GiftServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/GiftServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="addgift.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/addgift.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="22">
               <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
@@ -195,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jk/controller/TreeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jk/service/TreeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jk/dao/MenuMapper.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
@@ -246,6 +223,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Joke/toimg.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jk/dao/GiftMapper.java" />
+        <option value="$PROJECT_DIR$/../afterx/pom.xml" />
       </list>
     </option>
   </component>
@@ -267,6 +245,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="afterx Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="afterx Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
@@ -321,32 +315,6 @@
             <path>
               <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
               <item name="afterx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="afterx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="afterx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="afterx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="afterx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jk" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -542,7 +510,7 @@
       <workItem from="1517279427560" duration="197000" />
       <workItem from="1517456116105" duration="649000" />
       <workItem from="1517482403331" duration="2705000" />
-      <workItem from="1517485668153" duration="245000" />
+      <workItem from="1517485668153" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="VC">
       <created>1516278006340</created>
@@ -670,45 +638,52 @@
       <option name="project" value="LOCAL" />
       <updated>1517485753537</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="4">
+      <created>1517485964409</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1517485964409</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89450000" />
+    <option name="totallyTimeSpent" value="90003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27450982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3611111" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35779122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35457516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27450982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3611111" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35779122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35457516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -769,28 +744,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/toarticle/toaddAdvertising.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/AdvertisingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/ArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -914,6 +867,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -935,6 +889,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -942,6 +897,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <marker date="1517223074000" expanded="true" signature="1134:1193" ph="select count... joketopic" />
+            <marker date="1517223074000" expanded="true" signature="1285:1433" ph="select from joketopic" />
+            <marker date="1517223074000" expanded="true" signature="1486:1755" ph="insert into joketopic... " />
+            <marker date="1517223074000" expanded="true" signature="1847:1893" ph="delete from joketopic... " />
+            <marker date="1517223074000" expanded="true" signature="1990:2051" ph="select count... jokelike" />
+            <marker date="1517223074000" expanded="true" signature="2135:2195" ph="select count... jokecomment" />
+            <marker date="1517223074000" expanded="true" signature="2288:2392" ph="select * fro... jokecomment" />
+            <marker date="1517223074000" expanded="true" signature="2446:2615" ph="insert into photo... " />
+            <marker date="1517223074000" expanded="true" signature="2696:2794" ph="select count... picgroup" />
+            <marker date="1517223074000" expanded="true" signature="2886:3024" ph="select from picgroup" />
+            <marker date="1517223074000" expanded="true" signature="3114:3158" ph="select * fro... photo" />
+            <marker date="1517223074000" expanded="true" signature="3235:3338" ph="select count... pictopic" />
+            <marker date="1517223074000" expanded="true" signature="3412:3542" ph="select * fro... pictopic" />
+            <marker date="1517223074000" expanded="true" signature="3627:3672" ph="select * fro... menu" />
+            <marker date="1517223074000" expanded="true" signature="3758:3781" ph="select * fro... picgroup" />
+            <marker date="1517223074000" expanded="true" signature="3834:4015" ph="insert into pictopic... " />
+            <marker date="1517223074000" expanded="true" signature="4069:4146" ph="update picgroup... " />
+            <marker date="1517223074000" expanded="true" signature="4227:4384" ph="select count... pictopic" />
+            <marker date="1517223074000" expanded="true" signature="4477:4656" ph="select * fro... pictopic" />
+            <marker date="1517223074000" expanded="true" signature="4709:4766" ph="delete from pictopic... " />
+            <marker date="1517223074000" expanded="true" signature="4852:4891" ph="select * fro... photo" />
+            <marker date="1517223074000" expanded="true" signature="4946:5102" ph="insert into picgroup... " />
+            <marker date="1517223074000" expanded="true" signature="5156:5213" ph="delete from picgroup... " />
+            <marker date="1517223074000" expanded="true" signature="5328:5441" ph="select from joketopic" />
+            <marker date="1517223074000" expanded="true" signature="5528:5595" ph="delete from joketopic... " />
+            <marker date="1517223074000" expanded="true" signature="5674:6007" ph="insert into joketopic... " />
+            <marker date="1517223074000" expanded="true" signature="7404:8064" ph="update joketopic... " />
+            <marker date="1517223074000" expanded="true" signature="8155:8495" ph="update joketopic... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -969,6 +954,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,6 +991,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,6 +999,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,14 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1936">
-          <caret line="88" column="39" lean-forward="false" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1086,14 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/addgift.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/showgift.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1118,6 +1090,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/GiftMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/empty.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/HuiFuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1126,10 +1114,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/GiftMapper.java">
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/addgift.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="22">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
           <folding />
         </state>
       </provider>
