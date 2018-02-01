@@ -7,6 +7,26 @@ public class Employee {
 
     private String employeepass;
 
+    //角色
+    private Integer jueseid;
+
+    private String juesename;
+
+    public Integer getJueseid() {
+        return jueseid;
+    }
+
+    public void setJueseid(Integer jueseid) {
+        this.jueseid = jueseid;
+    }
+    public String getJuesename() {
+        return juesename;
+    }
+
+    public void setJuesename(String juesename) {
+        this.juesename = juesename;
+    }
+
     public Integer getEmployeeid() {
         return employeeid;
     }

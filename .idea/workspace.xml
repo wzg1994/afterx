@@ -1,81 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2aaca879-b591-4c81-9bcc-7c85659ca605" name="Default" comment="4">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/GiftMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/addgift.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/showgift.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/upgift.jsp" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/artifacts/afterx_war_exploded.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/artifacts/afterx_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__asm_asm_3_3_1.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__asm_asm_3_3_1.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_alibaba_fastjson_1_2_17.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_alibaba_fastjson_1_2_17.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_6.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_6.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_6.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_6.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_6.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_6.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_0_0.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__net_minidev_asm_1_0_2.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__net_minidev_asm_1_0_2.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__net_minidev_json_smart_2_1_1.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__net_minidev_json_smart_2_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_33.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_33.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_33.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_33.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_0_33.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_0_33.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_33.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_33.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_33.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_33.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_33.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_33.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_33.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_33.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_5.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_5.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_1_1.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_21.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_21.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_21.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_21.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_3_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_1_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_1_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_test_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_test_4_2_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_tx_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_tx_4_2_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+    <list default="true" id="2aaca879-b591-4c81-9bcc-7c85659ca605" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../afterx/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/afterx.iml" afterPath="$PROJECT_DIR$/../afterx/afterx.iml" />
-      <change beforePath="$PROJECT_DIR$/../afterx/pom.xml" afterPath="$PROJECT_DIR$/../afterx/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/CheckMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/CheckMapper.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/GiftMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/GiftMapper.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/HuiFuMapper.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/HuiFuMapper.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Employee.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Employee.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Photo.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Photo.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Picgroup.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Picgroup.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/CheckService.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/CheckService.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/CheckServiceImpl.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/CheckServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/TouSusServiceImpl.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/TouSusServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/UserssServiceImpl.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/Impl/UserssServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/TouSusService.java" afterPath="$PROJECT_DIR$/../afterx/src/main/java/com/jk/service/TouSusService.java" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/CheckMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/CheckMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/HuiFuMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/HuiFuMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../afterx/src/main/resources/mapper/UserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/YinPings.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/YinPings.jsp" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkjokepic.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkjokepic.jsp" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkpictop.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkpictop.jsp" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checktopic.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checktopic.jsp" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkvoipic.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/check/checkvoipic.jsp" />
+      <change beforePath="$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/../afterx/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -105,31 +52,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="88" column="39" lean-forward="true" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GiftController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/GiftController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GiftMapper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GiftMapper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/GiftMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HuiFuMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/HuiFuMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -186,27 +123,37 @@
         <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/addgift.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showgift.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="showgift.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/showgift.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdvertisingController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/AdvertisingController.java">
+      <file leaf-file-name="ArticleMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ArticleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="88">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/CheckMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -297,8 +244,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jk/controller/JokeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Joke/toimg.jsp" />
-        <option value="$PROJECT_DIR$/../afterx/pom.xml" />
-        <option value="$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/GiftMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jk/dao/GiftMapper.java" />
       </list>
     </option>
   </component>
@@ -311,7 +258,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/..////////////////////////////apache-maven-3.5.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../////////////////////////////apache-maven-3.5.2" />
         <option name="userSettingsFile" value="D:\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -364,6 +311,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -398,28 +348,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jk" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="afterx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="afterx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="afterx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,7 +364,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://D:/afterx/src/main/webapp/index.jsp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../afterx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -609,7 +541,8 @@
       <workItem from="1517275620692" duration="2689000" />
       <workItem from="1517279427560" duration="197000" />
       <workItem from="1517456116105" duration="649000" />
-      <workItem from="1517482403331" duration="2340000" />
+      <workItem from="1517482403331" duration="2705000" />
+      <workItem from="1517485668153" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="VC">
       <created>1516278006340</created>
@@ -723,14 +656,29 @@
       <option name="project" value="LOCAL" />
       <updated>1517484709975</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="4">
+      <created>1517484778801</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1517484778801</updated>
+    </task>
+    <task id="LOCAL-00018" summary="4">
+      <created>1517485753537</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1517485753537</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88840000" />
+    <option name="totallyTimeSpent" value="89450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -740,13 +688,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27450982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27450982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3611111" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3524962" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35779122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -821,27 +769,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Artcomment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/pojo/Articlescore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/toarticle/toaddAdvertising.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -987,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,36 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <marker date="1517223074000" expanded="true" signature="1134:1193" ph="select count... joketopic" />
-            <marker date="1517223074000" expanded="true" signature="1285:1433" ph="select from joketopic" />
-            <marker date="1517223074000" expanded="true" signature="1486:1755" ph="insert into joketopic... " />
-            <marker date="1517223074000" expanded="true" signature="1847:1893" ph="delete from joketopic... " />
-            <marker date="1517223074000" expanded="true" signature="1990:2051" ph="select count... jokelike" />
-            <marker date="1517223074000" expanded="true" signature="2135:2195" ph="select count... jokecomment" />
-            <marker date="1517223074000" expanded="true" signature="2288:2392" ph="select * fro... jokecomment" />
-            <marker date="1517223074000" expanded="true" signature="2446:2615" ph="insert into photo... " />
-            <marker date="1517223074000" expanded="true" signature="2696:2794" ph="select count... picgroup" />
-            <marker date="1517223074000" expanded="true" signature="2886:3024" ph="select from picgroup" />
-            <marker date="1517223074000" expanded="true" signature="3114:3158" ph="select * fro... photo" />
-            <marker date="1517223074000" expanded="true" signature="3235:3338" ph="select count... pictopic" />
-            <marker date="1517223074000" expanded="true" signature="3412:3542" ph="select * fro... pictopic" />
-            <marker date="1517223074000" expanded="true" signature="3627:3672" ph="select * fro... menu" />
-            <marker date="1517223074000" expanded="true" signature="3758:3781" ph="select * fro... picgroup" />
-            <marker date="1517223074000" expanded="true" signature="3834:4015" ph="insert into pictopic... " />
-            <marker date="1517223074000" expanded="true" signature="4069:4146" ph="update picgroup... " />
-            <marker date="1517223074000" expanded="true" signature="4227:4384" ph="select count... pictopic" />
-            <marker date="1517223074000" expanded="true" signature="4477:4656" ph="select * fro... pictopic" />
-            <marker date="1517223074000" expanded="true" signature="4709:4766" ph="delete from pictopic... " />
-            <marker date="1517223074000" expanded="true" signature="4852:4891" ph="select * fro... photo" />
-            <marker date="1517223074000" expanded="true" signature="4946:5102" ph="insert into picgroup... " />
-            <marker date="1517223074000" expanded="true" signature="5156:5213" ph="delete from picgroup... " />
-            <marker date="1517223074000" expanded="true" signature="5328:5441" ph="select from joketopic" />
-            <marker date="1517223074000" expanded="true" signature="5528:5595" ph="delete from joketopic... " />
-            <marker date="1517223074000" expanded="true" signature="5674:6007" ph="insert into joketopic... " />
-            <marker date="1517223074000" expanded="true" signature="7404:8064" ph="update joketopic... " />
-            <marker date="1517223074000" expanded="true" signature="8155:8495" ph="update joketopic... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1074,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,7 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,18 +1019,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/aaaa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/aaaa.java" />
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/AdvertisingController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -1152,21 +1033,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="88" column="39" lean-forward="true" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
+        <state relative-caret-position="1936">
+          <caret line="88" column="39" lean-forward="false" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/controller/GiftController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/GiftMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1216,15 +1089,47 @@
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/addgift.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../afterx/src/main/webapp/WEB-INF/showgift.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/CheckMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/HuiFuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../afterx/src/main/java/com/jk/dao/GiftMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

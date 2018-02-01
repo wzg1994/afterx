@@ -61,8 +61,6 @@ public class UserssServiceImpl implements UserssService {
 
     @Override
     public int addZhubo(Zhubo zhubo) {
-
-
         return userMapper.addZhubo(zhubo);
     }
 
@@ -73,7 +71,6 @@ public class UserssServiceImpl implements UserssService {
             if (list.get(0).getEmployeepass().equals(employee.getEmployeepass())){
                 a.setAttribute("User", list.get(0));
                 return "Yes";
-
             }else{
                 return "MiNo";
             }

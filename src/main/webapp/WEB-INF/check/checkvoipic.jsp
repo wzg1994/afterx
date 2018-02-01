@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>Title</title>
@@ -14,9 +15,9 @@
 
 <button type="button" class="btn btn-success" onclick="piUpvoip()">批量通过</button>
 <table class="table" id="voip-table" border="1"></table>
-
+<INPUT TYPE="hidden" id="jueseid" value="${User.jueseid}">
 <script>
-
+    var cc=$("#jueseid").val();
     function search(){
         $("#voip-table").bootstrapTable("refresh",{'pageNumber':1});
     }
@@ -25,7 +26,7 @@
 
 
         $("#voip-table").bootstrapTable({
-            url:"queryVoip",
+            url:"queryVoip?jueseid="+cc,
             striped: true,//隔行变色
             showColumns:true,//是否显示 内容列下拉框
             showPaginationSwitch:true,//是否显示 分页工具栏
@@ -73,16 +74,15 @@
                 },
                 {
                     field: '',
-                    title: '操作voiceid',
+                    title: '操作',
                     idField:true,
                     width: 100,
                     formatter: function(value,row,index){
-
-
-                        var imgbt = '<img src="/img/dui.jpg" height="20px" width="20px" onclick="upvoiyn('+row.voiceid+')"/>&nbsp;&nbsp;<img src="/img/cha.png" height="20px" width="20px" onclick="upvoiyn2('+row.voiceid+')"/>';
-
-
-
+                        if (cc==1){
+                            var imgbt = '<img src="/img/dui.jpg" height="20px" width="20px" onclick="upvoiyn('+row.voiceid+')"/>&nbsp;&nbsp;<img src="/img/cha.png" height="20px" width="20px" onclick="upvoiyn2('+row.voiceid+')"/>';
+                        }else if (cc==2){
+                            var imgbt = '<img src="/img/dui.jpg" height="20px" width="20px" onclick="upvoiyn('+row.voiceid+')"/>&nbsp;&nbsp;<img src="/img/cha.png" height="20px" width="20px" onclick="upvoiyn2('+row.voiceid+')"/>';
+                        }
                         return imgbt;
 
                     },
@@ -95,7 +95,7 @@
     function upvoiyn(id) {
 
             $.ajax({
-                url:'<%=request.getContextPath()%>/upvoipYn',
+                url:'<%=request.getContextPath()%>/upvoipYn?jueseid='+cc,
                 type:'post',
                 data:{"voiceid":id},
                 dataType:'text',

@@ -91,7 +91,7 @@
                 title: '话题封面',
                 width: 100,
                 formatter:function(value,row,index){
-                   return "<IMG src='value' HEIGHT='50' WIDTH='50'>";
+                   return "<img src='"+value+"' height='100' width='100'>";
                 }
             },{
                 field: 'vurls',

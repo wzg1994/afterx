@@ -24,4 +24,12 @@ public interface TouSusService {
  List<Voice> VoiceSelect();
 
  int addHuatis(Voicetopic c);
+
+    List<Employee> ZhiPais();
+
+    int upzhipais(Employee c);
+
+    List<Employee> CheZhis();
+
+    int upCheZhis(Employee c);
 }

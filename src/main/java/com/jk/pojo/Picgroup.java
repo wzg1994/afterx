@@ -11,16 +11,6 @@ public class Picgroup {
 
     private String imgid;
 
-    public String getPhotourl() {
-        return photourl;
-    }
-
-    public void setPhotourl(String photourl) {
-        this.photourl = photourl;
-    }
-
-    private String photourl;
-
     public Integer getPicgroupid() {
         return picgroupid;
     }

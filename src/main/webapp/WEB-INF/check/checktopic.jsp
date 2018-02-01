@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>Title</title>
@@ -14,9 +15,10 @@
 
 <button type="button" class="btn btn-success" onclick="piUpart()">批量通过</button>
 <table class="table" id="top-table" border="1"></table>
-
+       <INPUT TYPE="hidden" id="jueseid" value="${User.jueseid}">
 <script>
 
+    var cc=$("#jueseid").val();
     function search(){
         $("#top-table").bootstrapTable("refresh",{'pageNumber':1});
     }
@@ -25,7 +27,7 @@
 
 
         $("#top-table").bootstrapTable({
-            url:"queryTop",
+            url:"queryTop?jueseid="+cc,
             striped: true,//隔行变色
             showColumns:true,//是否显示 内容列下拉框
             showPaginationSwitch:true,//是否显示 分页工具栏
@@ -67,12 +69,11 @@
                     idField:true,
                     width: 100,
                     formatter: function(value,row,index){
-
-
-                        var imgbt = '<img src="/img/dui.jpg" height="20px" width="20px" onclick="upartyn('+row.topicid+')"/>&nbsp;&nbsp;<img src="/img/cha.png" height="20px" width="20px" onclick="upartyn2('+row.topicid+')"/>';
-
-
-
+                          if (cc==1){
+                              var imgbt = '<img src="/img/dui.jpg" height="20px" width="20px" onclick="upartyn('+row.topicid+')"/>&nbsp;&nbsp;<img src="/img/cha.png" height="20px" width="20px" onclick="upartyn2('+row.topicid+')"/>';
+                          }else if (cc==2){
+                              var imgbt = '<img src="/img/dui.jpg" height="20px" width="20px" onclick="upartyn('+row.topicid+')"/>&nbsp;&nbsp;<img src="/img/cha.png" height="20px" width="20px" onclick="upartyn2('+row.topicid+')"/>';
+                          }
                         return imgbt;
 
                     },
@@ -85,7 +86,7 @@
     function upartyn(id) {
 
             $.ajax({
-                url:'<%=request.getContextPath()%>/upartYn',
+                url:'<%=request.getContextPath()%>/upartYn?jueseid='+cc,
                 type:'post',
                 data:{"topicid":id},
                 dataType:'text',

@@ -75,6 +75,26 @@ public class TouSusServiceImpl  implements TouSusService {
     }
 
     @Override
+    public List<Employee> ZhiPais() {
+        return huiFuMapper.ZhiPais();
+    }
+
+    @Override
+    public int upzhipais(Employee c) {
+        return huiFuMapper.upzhipais(c.getEmployeeid());
+    }
+
+    @Override
+    public List<Employee> CheZhis() {
+        return huiFuMapper.CheZhis();
+    }
+
+    @Override
+    public int upCheZhis(Employee c) {
+        return huiFuMapper.upCheZhis(c);
+    }
+
+    @Override
     public int deleteTouSu(String ss) {
         return suggestMapper.deleteTouSu(ss);
     }

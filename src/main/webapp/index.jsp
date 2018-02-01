@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -325,8 +326,17 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Dashboard
-                <small>Control panel</small>
+                <c:if test="${User.jueseid==1}">
+                    ${User.employeename} &nbsp;&nbsp; ${User.juesename}你好!<br>
+                    <INPUT type="button" value="指派职务" onclick="zhi()">
+                    <INPUT type="button" value="撤职" onclick="che()">
+                </c:if>
+                <c:if test="${User.jueseid==2}">
+                    ${User.employeename}&nbsp;&nbsp;${User.juesename}你好!
+                </c:if>
+                <c:if test="${User.jueseid==3}">
+                    ${User.employeename}&nbsp;&nbsp;${User.juesename}你好!
+                </c:if>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -512,6 +522,70 @@
                 }
             }
         })
+
+    function zhi(){
+        BootstrapDialog.show({
+            title: '指派',
+            message: $('<div></div>').load('ZhiPais'),
+            buttons: [{
+                label: '保存',
+                action: function (dialog) {
+                    $.ajax({
+                        url: "upzhipais",
+                        type: "post",
+                        data: $("#myfoirms").serialize(),
+                        dataType: "text",
+                        success: function (A) {
+                            if(A>0){
+                                alert("成功")
+                                dialog.close();
+                            }
+                        },
+                        error: function () {
+                            alert("系统错误")
+                        }
+                    })
+                }
+            }, {
+                label: '取消',
+                action: function (dialog) {
+                    dialog.close();
+                }
+            }]
+        });
+    };
+
+    function che(){
+        BootstrapDialog.show({
+            title: '撤职',
+            message: $('<div></div>').load('CheZhis'),
+            buttons: [{
+                label: '保存',
+                action: function (dialog) {
+                    $.ajax({
+                        url: "upCheZhis",
+                        type: "post",
+                        data: $("#myfoirms2").serialize(),
+                        dataType: "text",
+                        success: function (A) {
+                            if(A>0){
+                                alert("成功")
+                                dialog.close();
+                            }
+                        },
+                        error: function () {
+                            alert("系统错误")
+                        }
+                    })
+                }
+            }, {
+                label: '取消',
+                action: function (dialog) {
+                    dialog.close();
+                }
+            }]
+        });
+    };
 </script>
 </body>
 </html>

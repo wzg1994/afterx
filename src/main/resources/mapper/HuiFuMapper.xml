@@ -17,6 +17,24 @@
     where huserid = #{sss,jdbcType=INTEGER}
   </delete>
 
+
+  <select id="ZhiPais"  resultType="com.jk.pojo.Employee">
+    select * from employee e, user_role u WHERE e.employeeid=u.usid AND u.roid!=1 AND u.roid!=2
+  </select>
+
+
+  <select id="CheZhis"  resultType="com.jk.pojo.Employee">
+    select * from employee e, user_role u WHERE e.employeeid=u.usid AND u.roid!=1 AND u.roid!=3
+  </select>
+
+  <update id="upzhipais" parameterType="com.jk.pojo.UserRole" >
+    update user_role t set t.roid = 2 where t.usid = #{c,jdbcType=INTEGER}
+  </update>
+
+
+  <update id="upCheZhis" parameterType="com.jk.pojo.UserRole" >
+    update user_role t set t.roid = 3 where t.usid = #{employeeid,jdbcType=INTEGER}
+  </update>
 <!--  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />

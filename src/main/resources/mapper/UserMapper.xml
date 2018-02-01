@@ -14,6 +14,10 @@
     userid, usernickname, username, userpass, userinfo
   </sql>
 
+    <sql id="Base_Column_List222" >
+        employeeid, employeename, employeepass ,roleid jueseid,rolename juesename
+    </sql>
+
 
   <sql id="Base_Column_ListInfo" >
      usersign,usersex,userbirthday,userlove,usermail,userphone,userqq,userwechat,usernickname uname,username nameu,
@@ -59,12 +63,13 @@
   </insert>
 
     <select id="loginUser" resultType="com.jk.pojo.Employee">
-        select * from  employee  where  employeename =#{employeename} and employeepass=#{employeepass}
+        select <include refid="Base_Column_List222" /> from  employee t,user_role u,role r where  t.employeename =#{employeename} and t.employeepass=#{employeepass}
+        and  t.employeeid=u.usid and u.roid=r.roleid
     </select>
 
 
 
-   <!-- <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+   <!-- <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >u.
       select
       <include refid="Base_Column_List" />
       from user

@@ -4,6 +4,16 @@
 <select id="queryTopCount" resultType="long">
   SELECT count(*) FROM topic WHERE topicyn = 2
 </select>
+
+  <select id="queryTopCount2" resultType="long">
+    SELECT count(*) FROM topic WHERE topicyn = 2 OR topicyn=1
+  </select>
+
+  <select id="queryTopPage2" resultType="com.jk.pojo.Topic">
+    SELECT * from topic t WHERE t.topicyn = 2 OR topicyn=1
+    limit #{st},#{rows}
+  </select>
+
   <select id="queryTopPage" resultType="com.jk.pojo.Topic">
     SELECT * from topic t WHERE t.topicyn = 2
     limit #{st},#{rows}
@@ -15,22 +25,54 @@
     SELECT * from pictopic p WHERE p.picyn = 2
     limit #{st},#{rows}
   </select>
+
+  <select id="queryPicCount1" resultType="long">
+    SELECT count(*) FROM pictopic WHERE picyn = 2 OR picyn=1
+  </select>
+  <select id="queryPicPage1" resultType="com.jk.pojo.Pictopic">
+    SELECT * from pictopic p WHERE p.picyn = 2 OR p.picyn=1
+    limit #{st},#{rows}
+  </select>
+
+
+
   <select id="queryVoipCount" resultType="long">
     SELECT count(*) FROM voicetopic  WHERE voicyn = 2
   </select>
+  <select id="queryVoipCount3" resultType="long">
+    SELECT count(*) FROM voicetopic  WHERE voicyn = 2 OR voicyn=1
+  </select>
+
   <select id="queryVoidPage" resultType="com.jk.pojo.Voicetopic">
     SELECT * from voicetopic v WHERE v.voicyn = 2
     limit #{st},#{rows}
   </select>
+
+  <select id="queryVoidPage3" resultType="com.jk.pojo.Voicetopic">
+    SELECT * from voicetopic v WHERE v.voicyn = 2 OR v.voicyn=1
+    limit #{st},#{rows}
+  </select>
+
   <select id="queryJokpCount" resultType="long">
     SELECT count(*) FROM joketopic  WHERE jokeyn = 2
   </select>
+  <select id="queryJokpCount2" resultType="long">
+    SELECT count(*) FROM joketopic  WHERE jokeyn = 2 OR jokeyn=1
+  </select>
+  <select id="queryJokpPage2" resultType="com.jk.pojo.Joketopic">
+    SELECT * from joketopic j WHERE j.jokeyn = 2 OR j.jokeyn=1
+    limit #{st},#{rows}
+  </select>
+
   <select id="queryJokpPage" resultType="com.jk.pojo.Joketopic">
     SELECT * from joketopic j WHERE j.jokeyn = 2
     limit #{st},#{rows}
   </select>
   <update id="upartYn">
     UPDATE topic t SET t.topicyn = 1 WHERE t.topicid = #{topicid}
+  </update>
+  <update id="upartYn22">
+    UPDATE topic t SET t.topicyn = 22 WHERE t.topicid = #{topicid}
   </update>
   <update id="upartYn2">
     UPDATE topic t SET t.topicyn = 3 WHERE t.topicid = #{topicid}
@@ -41,6 +83,11 @@
   <update id="uppicYn">
     UPDATE pictopic p SET p.picyn = 1 WHERE p.pictopicid = #{pictopicid}
   </update>
+
+  <update id="uppicYn22">
+    UPDATE pictopic p SET p.picyn = 22 WHERE p.pictopicid = #{pictopicid}
+  </update>
+
   <update id="uppicYn2">
     UPDATE pictopic p SET p.picyn = 3 WHERE p.pictopicid = #{pictopicid}
   </update>
@@ -49,6 +96,9 @@
   </update>
   <update id="upvoipYn">
     UPDATE voicetopic v SET v.voicyn = 1 WHERE v.voiceid = #{voiceid}
+  </update>
+  <update id="upvoipYn22">
+    UPDATE voicetopic v SET v.voicyn = 22 WHERE v.voiceid = #{voiceid}
   </update>
   <update id="upvoipYn2">
     UPDATE voicetopic v SET v.voicyn = 3 WHERE v.voiceid = #{voiceid}
@@ -59,6 +109,10 @@
   <update id="upjokYn">
     UPDATE joketopic j SET j.jokeyn = 1 WHERE j.jokeid = #{jokeid}
   </update>
+  <update id="upjokYn22">
+    UPDATE joketopic j SET j.jokeyn = 22 WHERE j.jokeid = #{jokeid}
+  </update>
+
   <update id="upjokYn2">
     UPDATE joketopic j SET j.jokeyn = 3 WHERE j.jokeid = #{jokeid}
   </update>

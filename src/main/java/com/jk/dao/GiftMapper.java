@@ -10,7 +10,7 @@ public interface GiftMapper {
 
     long queryGiftCount(Gift gift);
 
-    List<Gift> queryGiftPage(@Param("st") int start, @Param("ro") int rows, @Param("gift") Gift gift);
+    List<Gift> queryGiftPage(@Param("st") int start,@Param("ro") int rows,@Param("gift") Gift gift);
 
     Gift viewGift(Integer giftid);
 
