@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.dao.GiftMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.pojo.Gift" >
+    <id column="giftid" property="giftid" jdbcType="INTEGER" />
+    <result column="giftname" property="giftname" jdbcType="VARCHAR" />
+    <result column="giftprice" property="giftprice" jdbcType="INTEGER" />
+    <result column="giftcount" property="giftcount" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    giftid, giftname, giftprice, giftcount
+  </sql>
+  <select id="queryGiftCount" resultType="long">
+    select count(*) from gift g
+  </select>
+  <select id="queryGiftPage" resultType="com.jk.pojo.Gift">
+    select * from gift g limit #{st},#{ro}
+  </select>
+  <select id="viewGift" resultType="com.jk.pojo.Gift">
+    SELECT * FROM gift g WHERE giftid = #{giftid}
+  </select>
+  <update id="updateGift">
+    UPDATE gift g SET g.giftname = #{giftname},g.giftprice =#{giftprice},g.giftcount = #{giftcount},g.giftimg=#{giftimg} WHERE g.giftid=#{giftid}
+  </update>
+  <insert id="addGift">
+    INSERT INTO gift (giftname,giftprice,giftcount,giftimg) VALUES (#{giftname},#{giftprice},#{giftcount},#{giftimg})
+  </insert>
+    <delete id="deleteGift">
+        DELETE FROM  gift WHERE giftid = #{giftid}
+    </delete>
+</mapper>
